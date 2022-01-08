@@ -4,6 +4,8 @@ _Voor Nederlands, zie [README-nl.md](README-nl.md)_
 
 **Selection of FOSS for Windows, macOS and Linux**
 
+> <em>The secret of happiness is freedom. The secret of freedom is courage.</em> — Thucydides (460 – 395 BC) Greek historian and author in Athens
+
 For several reasons it is advisable to user the <a target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open source software</a> (FOSS) listed below. These software packages can be used free of charge on all operating systems, such as <a target="_blank" href="https://microsoft.com/windows/">Windows</a>, <a target="_blank" href="https://apple.com/macos/">macOS</a> and <a target="_blank" href="https://pop.system76.com/">Linux</a>. The software packages below are legal, of high quality and guarantee more freedom for the user.
 
 <table>
@@ -121,4 +123,3 @@ For several reasons it is advisable to user the <a target="_blank" href="https:/
 
 Please, also consider installing <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/">Firefox add-ons</a> and <a target="_blank" href="https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/">Thunderbird add-ons</a>.
 
-> <em>The secret of happiness is freedom. The secret of freedom is courage.</em> — Thucydides (460 – 395 BC) Greek historian and author in Athens

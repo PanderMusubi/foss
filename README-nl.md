@@ -4,6 +4,8 @@ _For English, see [README.md](README.md)_
 
 **Selectie van FOSS voor Windows, macOS en Linux**
 
+> <em>Het geheim van geluk is vrijheid. Het geheim van vrijheid is moed.</em> — Thucydides (460 – 395 v.Chr.) Griekse historicus en schrijver in Athene
+
 Het is om verschillende reden aan te bevelen om onderstaande <a target="_blank" href="https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware">vrije opensourcesoftware</a> (FOSS) te gebruiken. Deze softwarepakketten zijn gratis te gebruiken op besturingssystemen zoals <a href="https://microsoft.com/netherlands/windows/" target="_blank">Windows</a>, <a href="https://apple.com/nl/macosx/" target="_blank">macOS X</a> en <a href="https://pop.system76.com/" target="_blank">Linux</a>. De software hieronder is legaal, van hoge kwaliteit en garanderen meer vrijheid voor de gebruiker.
 
 <table>
@@ -134,4 +136,3 @@ Semantec Norton AntiVirus</td>
 
 Overweeg ook om de volgende <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/">Firefox add-ons</a> en <a target="_blank" href="https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/">Thunderbird add-ons</a> te installeren.
 
-> <em>Het geheim van geluk is vrijheid. Het geheim van vrijheid is moed.</em> — Thucydides (460 – 395 v.Chr.) Griekse historicus en schrijver in Athene
