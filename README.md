@@ -123,3 +123,7 @@ For several reasons it is advisable to user the <a target="_blank" href="https:/
 
 Please, also consider installing <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/">Firefox add-ons</a> and <a target="_blank" href="https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/">Thunderbird add-ons</a>.
 
+<h2>See also</h2>
+
+See also:
+- [Selection of FOSS Android apps on F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README.md).
