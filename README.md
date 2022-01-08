@@ -45,27 +45,27 @@ For several reasons it is advisable to user the <a target="_blank" href="https:/
 <tr>
 <td>word processor</td>
 <td>MS Word</td>
-<td class="noborder">-<strong>&nbsp;Writer</strong></td>
+<td class="noborder">-<strong> Writer</strong></td>
 </tr>
 <tr>
 <td>spreadsheet</td>
 <td>MS Excel</td>
-<td class="noborder">-<strong>&nbsp;Calc</strong></td>
+<td class="noborder">-<strong> Calc</strong></td>
 </tr>
 <tr>
 <td>presentation</td>
 <td>MS PowerPoint</td>
-<td class="noborder">-<strong>&nbsp;Impress</strong></td>
+<td class="noborder">-<strong> Impress</strong></td>
 </tr>
 <tr>
 <td>database</td>
 <td>MS Access</td>
-<td class="noborder">-<strong>&nbsp;Base</strong></td>
+<td class="noborder">-<strong> Base</strong></td>
 </tr>
 <tr>
 <td>drawing</td>
 <td>MS Draw</td>
-<td class="noborder">-<strong>&nbsp;Draw</strong></td>
+<td class="noborder">-<strong> Draw</strong></td>
 </tr>
 <tr>
 <td>image manipulation</td>
