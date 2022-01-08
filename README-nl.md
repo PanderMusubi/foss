@@ -136,7 +136,5 @@ Semantec Norton AntiVirus</td>
 
 Overweeg ook om de volgende <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/">Firefox add-ons</a> en <a target="_blank" href="https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/">Thunderbird add-ons</a> te installeren.
 
-<h2>Zie ook</h2>
-
 Zie ook:
 - [Selectie van FOSS Androidapps op F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README-nl.md).
