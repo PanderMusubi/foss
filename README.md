@@ -126,3 +126,5 @@ Please, also consider installing <a target="_blank" href="https://addons.mozilla
 See also:
 - [Selection of FOSS Android apps on F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README.md)
 - [PRISM Break](https://prism-break.org/en/)
+
+<small>This overview was started in 2013 and predates that of PRISM Break.</small>

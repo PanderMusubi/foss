@@ -139,3 +139,5 @@ Overweeg ook om de volgende <a target="_blank" href="https://addons.mozilla.org/
 Zie ook:
 - [Selectie van FOSS Androidapps op F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README-nl.md)
 - [PRISM Break](https://prism-break.org/nl/)
+
+<small>Dit overzicht was gestarted in 2013 en was eerder dan die van PRISM Break.</small>
