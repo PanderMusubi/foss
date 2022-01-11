@@ -100,6 +100,11 @@ For several reasons it is advisable to user the <a target="_blank" href="https:/
 <td><a target="_blank" href="http://filezilla-project.org/"><strong>FileZilla</strong></a></td>
 </tr>
 <tr>
+<td>video recording and streaming</td>
+<td>Camtasia<br>Snagit</td>
+<td><a target="_blank" href="https://obsproject.com/"><strong>OBS Studio</strong></a></td>
+</tr>
+<tr>
 <td>video editting</td>
 <td>Windows Movie Maker,<br>iMovie,<br>Pinnacle Studio,<br>Adobe Premiere,<br>Avid Xpress Pro</td>
 <td><a target="_blank" href="https://www.openshot.org/"><strong>OpenShot</strong></a></td>

@@ -106,6 +106,11 @@ overdracht</td>
 <td><a href="http://filezilla-project.org/" target="_blank"><strong>FileZilla</strong></a></td>
 </tr>
 <tr>
+<td>video recording and streaming</td>
+<td>Camtasia<br>Snagit</td>
+<td><a target="_blank" href="https://obsproject.com/"><strong>OBS Studio</strong></a></td>
+</tr>
+<tr>
 <td>videobewerking</td>
 <td>Windows Movie Maker,
 iMovie,
