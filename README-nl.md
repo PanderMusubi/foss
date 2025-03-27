@@ -1,4 +1,6 @@
-_For English, see [README.md](README.md)_
+_🇬🇧 For English, see [README.md](README.md)_
+
+_🇪🇸 Para español, ver [README-es.md](README-es.md)_
 
 # FOSS
 
@@ -6,143 +8,136 @@ _For English, see [README.md](README.md)_
 
 > <em>Het geheim van geluk is vrijheid. Het geheim van vrijheid is moed.</em> — Thucydides (460 – 395 v.Chr.) Griekse historicus en schrijver in Athene
 
-Het is om verschillende reden aan te bevelen om onderstaande <a target="_blank" href="https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware">vrije opensourcesoftware</a> (FOSS) te gebruiken. Deze softwarepakketten zijn gratis te gebruiken op besturingssystemen zoals <a href="https://microsoft.com/netherlands/windows/" target="_blank">Windows</a>, <a href="https://apple.com/nl/macosx/" target="_blank">macOS X</a> en <a href="https://pop.system76.com/" target="_blank">Linux</a>. De software hieronder is legaal, van hoge kwaliteit en garanderen meer vrijheid voor de gebruiker.
+Het is om verschillende reden aan te bevelen om onderstaande <a target="_blank" href="https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware">vrije opensourcesoftware</a> (FOSS) te gebruiken. Deze softwarepakketten zijn gratis te gebruiken op besturingssystemen zoals [Windows](https://microsoft.com/netherlands/windows/), [macOS](https://apple.com/macos/) en [Linux](https://pop.system76.com/). De software hieronder is legaal, van hoge kwaliteit en garanderen meer vrijheid voor de gebruiker.
 
 <table>
-<tr>
-<th scope="col">type</th>
-<th scope="col">alternatief</th>
-<th scope="col">naam</th>
-</tr>
-<tr>
-<td>webbrowser</td>
-<td>MS Internet Explorer,<br>Apple Safari,<br>Google Chrome</td>
-<td><a href="https://www.mozilla-europe.org/nl/firefox/" target="_blank"><strong>Firefox</strong></a>,<br><a href="https://www.chromium.org/Home" target="_blank"><strong>Chromium</strong></a></td>
-</tr>
-<tr>
-<td>email,<br>adressen</td>
-<td>MS Outlook,<br>Mail,<br>Adresboek</td>
-<td><a href="https://www.thunderbird.net/" target="_blank"><strong>Thunderbird</strong></a></td>
-</tr>
-<tr>
-<td>kalender</td>
-<td>MS Outlook,<br>iCal,<br>Google Calendar</td>
-<td><a target="_blank" href="https://www.thunderbird.net/"><strong>Thunderbird</strong></a></td>
-</tr>
-<tr>
-<td>mediaspeler</td>
-<td>MS Media Player,<br>QuickTime,<br>DVD-speler</td>
-<td><a href="https://www.videolan.org/vlc/" target="_blank"><strong>VLC</strong></a></td>
-</tr>
-<tr>
-<td>audiospeler</td>
-<td>iTunes,<br>Winamp,<br>foobar2000</td>
-<td><a href="https://www.videolan.org/vlc/" target="_blank"><strong>VLC</strong></a>,<br><a href="https://www.clementine-player.org/" target="_blank"><strong>Clementine</strong></a>,<br><a href="https://amarok.kde.org/" target="_blank"><strong>Amarok</strong></a></td>
-</tr>
-<tr>
-<td>kantoorpakket</td>
-<td>MS Office</td>
-<td class="noborder"><a href="http://nl.libreoffice.org/" target="_blank"><strong>LibreOffice</strong></a>:</td>
-</tr>
-<tr>
-<td>tekstverwerker</td>
-<td>MS Word</td>
-<td class="noborder">-<strong> Writer</strong></td>
-</tr>
-<tr>
-<td>rekenblad</td>
-<td>MS Excel</td>
-<td class="noborder">-<strong> Calc</strong></td>
-</tr>
-<tr>
-<td>presentatie</td>
-<td>MS PowerPoint</td>
-<td class="noborder">-<strong> Impress</strong></td>
-</tr>
-<tr>
-<td>database</td>
-<td>MS Access</td>
-<td class="noborder">-<strong> Base</strong></td>
-</tr>
-<tr>
-<td>tekenen</td>
-<td>MS Draw</td>
-<td class="noborder">-<strong> Draw</strong></td>
-</tr>
-<tr>
-<td>tekenprogramma, beeldmanipulatie</td>
-<td>Adobe Photoshop,<br>Corel Paint Shop Pro Photo</td>
-<td><a href="http://gimp.org/" target="_blank"><strong>GIMP</strong></a></td>
-</tr>
-<tr>
-<td>tekenprogramma, vectortekenen</td>
-<td>Adobe Illustrator,<br>Adobe Fireworks,<br>CorelDRAW</td>
-<td><a href="http://inkscape.org/" target="_blank"><strong>Inkscape</strong></a></td>
-</tr>
-<tr>
-<td>eenvoudig tekenprogramma</td>
-<td>MS Paint
-Painting</td>
-<td><a href="http://tuxpaint.org/" target="_blank"><strong>Tux Paint</strong></a></td>
-</tr>
-<tr>
-<td>desktop-
-publishing</td>
-<td>Adobe InDesign,
-Adobe FrameMaker,
-QuarkXPress</td>
-<td><a href="http://www.scribus.net/" target="_blank"><strong>Scribus</strong></a></td>
-</tr>
-<tr>
-<td>archivering,
-compressie</td>
-<td>WinZip</td>
-<td><a href="http://www.7-zip.org/" target="_blank"><strong>7-Zip</strong></a></td>
-</tr>
-<tr>
-<td>bestands-
-overdracht</td>
-<td>WinFTP</td>
-<td><a href="http://filezilla-project.org/" target="_blank"><strong>FileZilla</strong></a></td>
-</tr>
-<tr>
-<td>video recording and streaming</td>
-<td>Camtasia<br>Snagit</td>
-<td><a target="_blank" href="https://obsproject.com/"><strong>OBS Studio</strong></a></td>
-</tr>
-<tr>
-<td>videobewerking</td>
-<td>Windows Movie Maker,
-iMovie,
-Pinnacle Studio,
-Adobe Premiere,
-Avid Xpress Pro</td>
-<td><a href="https://www.openshot.org/" target="_blank"><strong>OpenShot</strong></a></td>
-</tr>
-<tr>
-<td>audiobewerking</td>
-<td>Adobe Soundbooth,
-GarageBand,
-Sony Sound Forge</td>
-<td><a href="http://audacity.sourceforge.net/" target="_blank"><strong>Audacity</strong></a></td>
-</tr>
-<tr>
-<td>antivirus</td>
-<td>McAfee VirusScan,
-Semantec Norton AntiVirus</td>
-<td><a href="http://nl.clamwin.com/" target="_blank"><strong>ClamWin</strong></a>,<br><a href="http://clamtk.sourceforge.net/" target="_blank"><strong>ClamTk</strong></a></td>
-</tr>
-<tr>
-<td>pixelreparatie</td>
-<td></td>
-<td><a href="http://www.jscreenfix.com/" target="_blank"><strong>JScreenFix</strong></a></td>
-</tr>
+<tr><th colspan="2"><br>webbrowser</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.mozilla.com/firefox/"><img alt="icon" width="128px" src="icons/firefox.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.mozilla.com/firefox/"><strong>Firefox</strong></a><br>
+browse het internet inclusief Firefox Sync voor synchroniseren wachtwoorden, favorieten, instellingen, etc.</td>
+<td valign="top"><font color="red"><strong>Microsoft Edge, Google Chrome, Apple Safari</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"><img alt="icon" width="128px" src="icons/ungoogled-chromium.png"></a></td>
+<td valign="top"><a target="_blank" href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"><strong>Ungoogled Chromium</strong></a><br>
+browse het internet zonder integratie van Google</td>
+<td valign="top"><font color="red"><strong>Microsoft Edge, Google Chrome, Apple Safari</strong></font></td></tr>
+<tr><th colspan="2"><br>e-mail, contacten, kalender, taken</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.thunderbird.net/"><img alt="icon" width="128px" src="icons/thunderbird.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.thunderbird.net/"><strong>Thunderbird</strong></a><br>
+ontvang en verstuur e-mails, beheren contacten (CardDAV) en beheer kalenders en taken (CalDAV, ICS)</td>
+<td valign="top"><font color="red"><strong>Microsoft Outlook, (Google) Gmail, Google Calendar, Mail, Address Book, iCal</strong></font></td></tr>
+<tr><th colspan="2"><br>mediaspeler</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.videolan.org/vlc/"><img alt="icon" width="128px" src="icons/vlc.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.videolan.org/vlc/"><strong>VLC</strong></a><br>
+speel video of audio af van bestanden of streams</td>
+<td valign="top"><font color="red"><strong>Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://mpv.io/"><img alt="icon" width="128px" src="icons/mpv.png"></a></td>
+<td valign="top"><a target="_blank" href="https://mpv.io/"><strong>MPV</strong></a><br>
+speel video of audio af van bestanden of streams, inclusief dubbele ondertiteling</td>
+<td valign="top"><font color="red"><strong>Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://kodi.tv/"><img alt="icon" width="128px" src="icons/kodi.png"></a></td>
+<td valign="top"><a target="_blank" href="https://kodi.tv/"><strong>Kodi</strong></a><br>
+speel video of audio af van bestanden of streams, inclusief info van TMDb </td>
+<td valign="top"><font color="red"><strong>Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</strong></font></td></tr>
+<tr><th colspan="2"><br>video-opname en -bewerking</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://obsproject.com/"><img alt="icon" width="128px" src="icons/obs-studio.png"></a></td>
+<td valign="top"><a target="_blank" href="https://obsproject.com/"><strong>OBS Studio</strong></a><br>
+neem video's op en stream video's</td>
+<td valign="top"><font color="red"><strong>Camtasia, Snagit</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.shotcut.org/"><img alt="icon" width="128px" src="icons/shotcut.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.shotcut.org/"><strong>Shotcut</strong></a><br>
+bewerk video's</td>
+<td valign="top"><font color="red"><strong>Adobe Premiere Pro, Windows Movie Maker, iMovie, Pinnacle Studio, DaVinci Resolve</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.audacityteam.org/"><img alt="icon" width="128px" src="icons/audacity.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.audacityteam.org/"><strong>Audacity</strong></a><br>
+bewerk audiobestanden</td>
+<td valign="top"><font color="red"><strong>Adobe Soundbooth, GarageBand, Sony Sound Forge</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://mediaarea.net/MediaInfo"><img alt="icon" width="128px" src="icons/mediainfo.png"></a></td>
+<td valign="top"><a target="_blank" href="https://mediaarea.net/MediaInfo"><strong>Mediainfo</strong></a><br>
+inspecteer mediabestanden</td>
+<td valign="top"><font color="red"><strong>Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</strong></font></td></tr>
+<tr><th colspan="2"><br>officepakket</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-writer.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Writer</strong></a><br>
+tekstverwerker</td>
+<td valign="top"><font color="red"><strong>Microsoft Office Word</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-calc.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Calc</strong></a><br>
+rekenblad</td>
+<td valign="top"><font color="red"><strong>Microsoft Office Excel</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-impress.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Impress</strong></a><br>
+presentatie</td>
+<td valign="top"><font color="red"><strong>Microsoft Office PowerPoint</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-base.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Base</strong></a><br>
+database</td>
+<td valign="top"><font color="red"><strong>Microsoft Office Access</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-draw.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Draw</strong></a><br>
+tekenen</td>
+<td valign="top"><font color="red"><strong>Microsoft Office Draw</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-math.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Math</strong></a><br>
+wiskundige formules</td>
+<td valign="top"><font color="red"><strong>Microsoft Office MathTyoe</strong></font></td></tr>
+<tr><th colspan="2"><br>Grafish en Publicatie</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://gimp.org/"><img alt="icon" width="128px" src="icons/gimp.png"></a></td>
+<td valign="top"><a target="_blank" href="https://gimp.org/"><strong>GIMP</strong></a><br>
+tekenprogramma, beeldmanipulatie</td>
+<td valign="top"><font color="red"><strong>Adobe Illustrator, Corel Paint Shop Pro Photo</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://inkscape.org/"><img alt="icon" width="128px" src="icons/inkscape.png"></a></td>
+<td valign="top"><a target="_blank" href="https://inkscape.org/"><strong>Inkscape</strong></a><br>
+vectortekenen</td>
+<td valign="top"><font color="red"><strong>Adobe Illustrator, Adobe Fireworks, CorelDRAW</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://krita.org/"><img alt="icon" width="128px" src="icons/krita.png"></a></td>
+<td valign="top"><a target="_blank" href="https://krita.org/"><strong>Krita</strong></a><br>
+tekenen</td>
+<td valign="top"><font color="red"><strong>Microsoft Paint, Painting</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://scribus.net/"><img alt="icon" width="128px" src="icons/scribus.png"></a></td>
+<td valign="top"><a target="_blank" href="https://scribus.net/"><strong>Scribus</strong></a><br>
+desktop-publishing (DTP)</td>
+<td valign="top"><font color="red"><strong>Adobe InDesign, Adobe FrameMaker, QuarkXPress</strong></font></td></tr>
+<tr><th colspan="2"><br>Financieel</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.dash.org/"><img alt="icon" width="128px" src="icons/dash.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.dash.org/"><strong>Dash</strong></a><br>
+verstuur en ontvang cryptovaluta Dash</td>
+<td valign="top"><font color="red"><strong>PayPal</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://firo.org/"><img alt="icon" width="128px" src="icons/firo.png"></a></td>
+<td valign="top"><a target="_blank" href="https://firo.org/"><strong>Firo</strong></a><br>
+verstuur en ontvang cryptovaluta Firo</td>
+<td valign="top"><font color="red"><strong>PayPal</strong></font></td></tr>
+<tr><th colspan="2"><br>Bestanden</th><th><br>Vervangt</th></tr>
+<tr><td><a target="_blank" href="https://www.7-zip.org/"><img alt="icon" width="128px" src="icons/7-zip.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.7-zip.org/"><strong>7-Zip</strong></a><br>
+pak zipbestanden in en uit</td>
+<td valign="top"><font color="red"><strong>WinZip, WinZip PDF Pro</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://filezilla-project.org/"><img alt="icon" width="128px" src="icons/filezilla.png"></a></td>
+<td valign="top"><a target="_blank" href="https://filezilla-project.org/"><strong>FileZilla</strong></a><br>
+kopieer bestanden naar en van een server</td>
+<td valign="top"><font color="red"><strong>WinFTP, Duck</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.clamwin.com/"><img alt="icon" width="128px" src="icons/clamwin.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.clamwin.com/"><strong>ClamWin</strong></a><br>
+scan bestanden voor virussen</td>
+<td valign="top"><font color="red"><strong>McAfee VirusScan, Semantec Norton AntiVirus</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://clamtk.sourceforge.net/"><img alt="icon" width="128px" src="icons/clamtk.png"></a></td>
+<td valign="top"><a target="_blank" href="https://clamtk.sourceforge.net/"><strong>ClamTk</strong></a><br>
+scan bestanden voor virussen</td>
+<td valign="top"><font color="red"><strong>McAfee VirusScan, Semantec Norton AntiVirus</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.syncthing.org/"><img alt="icon" width="128px" src="icons/syncthing.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.syncthing.org/"><strong>Syncthing</strong></a><br>
+synchroniseer en back-up bestanden</td>
+<td valign="top"><font color="red"><strong>Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://www.jscreenfix.com/"><img alt="icon" width="128px" src="icons/jscreenfix.png"></a></td>
+<td valign="top"><a target="_blank" href="https://www.jscreenfix.com/"><strong>JScreenFix</strong></a><br>
+repareer pixels</td>
+<td valign="top"><font color="red"><strong></strong></font></td></tr>
 </table>
 
-Overweeg ook om de volgende <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/">Firefox add-ons</a> en <a target="_blank" href="https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/">Thunderbird add-ons</a> te installeren.
+Overweeg ook om de volgende [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/) en [Thunderbird add-ons](https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/) te installeren.
 
 Zie ook:
 - [Selectie van FOSS Androidapps op F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README-nl.md)
-- [PRISM Break](https://prism-break.org/nl/)
+- [PRISM Break](https://prism-break.org/nl/
 
-<small>Dit overzicht was gestarted in 2013 en was eerder dan die van PRISM Break.</small>
+Dit overzicht was gestarted in 2013 en was eerder dan die van PRISM Break.
+

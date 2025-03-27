@@ -1,0 +1,370 @@
+{
+    "references": {
+        "en": "For English, see",
+        "nl": "Voor Nederlands, zie",
+        "es": "Para español, ver"
+    },
+    "headers": {
+        "en": "# FOSS\n\n**Selection of FOSS for Windows, macOS and Linux**\n\n> <em>The secret of happiness is freedom. The secret of freedom is courage.</em> — Thucydides (460 – 395 BC) Greek historian and author in Athens\n\nFor several reasons it is advisable to user the <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Free_and_open-source_software\">free and open source software</a> (FOSS) listed below. These software packages can be used free of charge on all operating systems, such as [Windows](https://microsoft.com/windows/), [macOS](https://apple.com/macos/) and [Linux](https://pop.system76.com/). The software packages below are legal, of high quality and guarantee more freedom for the user.",
+        "nl": "# FOSS\n\n**Selectie van FOSS voor Windows, macOS en Linux**\n\n> <em>Het geheim van geluk is vrijheid. Het geheim van vrijheid is moed.</em> — Thucydides (460 – 395 v.Chr.) Griekse historicus en schrijver in Athene\n\nHet is om verschillende reden aan te bevelen om onderstaande <a target=\"_blank\" href=\"https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware\">vrije opensourcesoftware</a> (FOSS) te gebruiken. Deze softwarepakketten zijn gratis te gebruiken op besturingssystemen zoals [Windows](https://microsoft.com/netherlands/windows/), [macOS](https://apple.com/macos/) en [Linux](https://pop.system76.com/). De software hieronder is legaal, van hoge kwaliteit en garanderen meer vrijheid voor de gebruiker.",
+        "es": ""
+    },
+    "footers": {
+        "en": "Please, also consider installing [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/) and [Thunderbird add-ons](https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/).\n\nSee also:\n- [Selection of FOSS Android apps on F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README.md)\n- [PRISM Break](https://prism-break.org/en/)\n\nThis overview was started in 2013 and predates that of PRISM Break.",
+        "nl": "Overweeg ook om de volgende [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/collections/Hellebaard/favorites/) en [Thunderbird add-ons](https://addons.thunderbird.net/en-US/thunderbird/collections/Hellebaard/favorites/) te installeren.\n\nZie ook:\n- [Selectie van FOSS Androidapps op F-Droid](https://github.com/PanderMusubi/fdroid/blob/main/README-nl.md)\n- [PRISM Break](https://prism-break.org/nl/\n\nDit overzicht was gestarted in 2013 en was eerder dan die van PRISM Break.",
+        "es": ""
+    },
+    "categories": [
+        {
+            "name": {
+                "en": "web browser",
+                "nl": "webbrowser",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "Firefox",
+                    "url": "https://www.mozilla.com/firefox/",
+                    "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
+                    "description": {
+                        "en": "browse the internet including Firefox Sync for synchronizing passwords, bookmarks, settings, etc.",
+                        "nl": "browse het internet inclusief Firefox Sync voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Ungoogled Chromium",
+                    "url": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+                    "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
+                    "description": {
+                        "en": "browse the internet without integration of Google",
+                        "nl": "browse het internet zonder integratie van Google",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "email, contacts, calendar, tasks",
+                "nl": "e-mail, contacten, kalender, taken",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "Thunderbird",
+                    "url": "https://www.thunderbird.net/",
+                    "replaces": "Microsoft Outlook, (Google) Gmail, Google Calendar, Mail, Address Book, iCal",
+                    "description": {
+                        "en": "send and receive emails, managing contacts (CardDAV) and manage calendars and tasks (CalDAV, ICS)",
+                        "nl": "ontvang en verstuur e-mails, beheren contacten (CardDAV) en beheer kalenders en taken (CalDAV, ICS)",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "media player",
+                "nl": "mediaspeler",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "VLC",
+                    "url": "https://www.videolan.org/vlc/",
+                    "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
+                    "description": {
+                        "en": "play video or audio from files or streams",
+                        "nl": "speel video of audio af van bestanden of streams",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "MPV",
+                    "url": "https://mpv.io/",
+                    "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
+                    "description": {
+                        "en": "play video or audio from files or streams, including dual subtitles",
+                        "nl": "speel video of audio af van bestanden of streams, inclusief dubbele ondertiteling",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Kodi",
+                    "url": "https://kodi.tv/",
+                    "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
+                    "description": {
+                        "en": "play video or audio from files or streams, including info from TMDb",
+                        "nl": "speel video of audio af van bestanden of streams, inclusief info van TMDb ",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "video recording and editing",
+                "nl": "video-opname en -bewerking",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "OBS Studio",
+                    "url": "https://obsproject.com/",
+                    "replaces": "Camtasia, Snagit",
+                    "description": {
+                        "en": "record and stream videos",
+                        "nl": "neem video's op en stream video's",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Shotcut",
+                    "url": "https://www.shotcut.org/",
+                    "replaces": "Adobe Premiere Pro, Windows Movie Maker, iMovie, Pinnacle Studio, DaVinci Resolve",
+                    "description": {
+                        "en": "edit videos",
+                        "nl": "bewerk video's",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Audacity",
+                    "url": "https://www.audacityteam.org/",
+                    "replaces": "Adobe Soundbooth, GarageBand, Sony Sound Forge",
+                    "description": {
+                        "en": "edit audio files",
+                        "nl": "bewerk audiobestanden",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Mediainfo",
+                    "url": "https://mediaarea.net/MediaInfo",
+                    "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
+                    "description": {
+                        "en": "inspect media files",
+                        "nl": "inspecteer mediabestanden",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "office suite",
+                "nl": "officepakket",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "LibreOffice Writer",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office Word",
+                    "description": {
+                        "en": "word processor",
+                        "nl": "tekstverwerker",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "LibreOffice Calc",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office Excel",
+                    "description": {
+                        "en": "spreadsheet",
+                        "nl": "rekenblad",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "LibreOffice Impress",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office PowerPoint",
+                    "description": {
+                        "en": "presentation",
+                        "nl": "presentatie",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "LibreOffice Base",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office Access",
+                    "description": {
+                        "en": "database",
+                        "nl": "database",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "LibreOffice Draw",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office Draw",
+                    "description": {
+                        "en": "drawing",
+                        "nl": "tekenen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "LibreOffice Math",
+                    "url": "https://www.libreoffice.org/",
+                    "replaces": "Microsoft Office MathTyoe",
+                    "description": {
+                        "en": "mathematical formulas",
+                        "nl": "wiskundige formules",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Graphics and Publishing",
+                "nl": "Grafish en Publicatie",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "GIMP",
+                    "url": "https://gimp.org/",
+                    "replaces": "Adobe Illustrator, Corel Paint Shop Pro Photo",
+                    "description": {
+                        "en": "image manipulation",
+                        "nl": "tekenprogramma, beeldmanipulatie",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Inkscape",
+                    "url": "https://inkscape.org/",
+                    "replaces": "Adobe Illustrator, Adobe Fireworks, CorelDRAW",
+                    "description": {
+                        "en": "vector drawing",
+                        "nl": "vectortekenen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Krita",
+                    "url": "https://krita.org/",
+                    "replaces": "Microsoft Paint, Painting",
+                    "description": {
+                        "en": "drawing",
+                        "nl": "tekenen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Scribus",
+                    "url": "https://scribus.net/",
+                    "replaces": "Adobe InDesign, Adobe FrameMaker, QuarkXPress",
+                    "description": {
+                        "en": "desktop publishing (DTP)",
+                        "nl": "desktop-publishing (DTP)",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Financial",
+                "nl": "Financieel",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "Dash",
+                    "url": "https://www.dash.org/",
+                    "replaces": "PayPal",
+                    "description": {
+                        "en": "send and receive cryptocurrency Dash",
+                        "nl": "verstuur en ontvang cryptovaluta Dash",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Firo",
+                    "url": "https://firo.org/",
+                    "replaces": "PayPal",
+                    "description": {
+                        "en": "send and receive cryptocurrency Firo",
+                        "nl": "verstuur en ontvang cryptovaluta Firo",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Files",
+                "nl": "Bestanden",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "7-Zip",
+                    "url": "https://www.7-zip.org/",
+                    "replaces": "WinZip, WinZip PDF Pro",
+                    "description": {
+                        "en": "create and extract zip files",
+                        "nl": "pak zipbestanden in en uit",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "FileZilla",
+                    "url": "https://filezilla-project.org/",
+                    "replaces": "WinFTP, Duck",
+                    "description": {
+                        "en": "copy files to and from a server",
+                        "nl": "kopieer bestanden naar en van een server",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "ClamWin",
+                    "url": "https://www.clamwin.com/",
+                    "replaces": "McAfee VirusScan, Semantec Norton AntiVirus",
+                    "description": {
+                    "en": "scan files for virusses",
+                    "nl": "scan bestanden voor virussen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "ClamTk",
+                    "url": "https://clamtk.sourceforge.net/",
+                    "replaces": "McAfee VirusScan, Semantec Norton AntiVirus",
+                    "description": {
+                        "en": "scan files for virusses",
+                        "nl": "scan bestanden voor virussen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Syncthing",
+                    "url": "https://www.syncthing.org/",
+                    "replaces": "Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud",
+                    "description": {
+                        "en": "synchronize and backup files",
+                        "nl": "synchroniseer en back-up bestanden",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "JScreenFix",
+                    "url": "https://www.jscreenfix.com/",
+                    "description": {
+                        "en": "repair pixels",
+                        "nl": "repareer pixels",
+                        "es": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
