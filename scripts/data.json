@@ -17,8 +17,57 @@
     "categories": [
         {
             "name": {
-                "en": "web browser",
-                "nl": "webbrowser",
+                "en": "Files",
+                "nl": "Bestanden",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "Syncthing",
+                    "url": "https://www.syncthing.org/",
+                    "replaces": "Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud",
+                    "description": {
+                        "en": "synchronize and backup files",
+                        "nl": "synchroniseer en back-up bestanden",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "7-Zip",
+                    "url": "https://www.7-zip.org/",
+                    "replaces": "WinZip, WinZip PDF Pro",
+                    "description": {
+                        "en": "create and extract zip files",
+                        "nl": "pak zipbestanden in en uit",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "FileZilla",
+                    "url": "https://filezilla-project.org/",
+                    "replaces": "WinFTP, Duck",
+                    "description": {
+                        "en": "copy files to and from a server",
+                        "nl": "kopieer bestanden naar en van een server",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Clam AntiVirus",
+                    "url": "https://www.clamav.net/",
+                    "replaces": "McAfee VirusScan, Norton AntiVirus",
+                    "description": {
+                    "en": "scan files for virusses",
+                    "nl": "scan bestanden voor virussen",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Web Browsers",
+                "nl": "Webbrowsers",
                 "es": ""
             },
             "apps": [
@@ -27,8 +76,8 @@
                     "url": "https://www.mozilla.com/firefox/",
                     "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
                     "description": {
-                        "en": "browse the internet including Firefox Sync for synchronizing passwords, bookmarks, settings, etc.",
-                        "nl": "browse het internet inclusief Firefox Sync voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
+                        "en": "browse the internet, including Firefox Sync for synchronizing passwords, bookmarks, settings, etc.",
+                        "nl": "browse het internet, inclusief Firefox Sync voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
                         "es": ""
                     }
                 },
@@ -41,13 +90,23 @@
                         "nl": "browse het internet zonder integratie van Google",
                         "es": ""
                     }
+                },
+                {
+                    "name": "KeepassXC",
+                    "url": "https://keepassxc.org/",
+                    "replaces": "Google Password Manager, Microsoft Authenticator, LastPass, 1Password, Bitwarden Password Manager, Yandex Key",
+                    "description": {
+                        "en": "manage passwords",
+                        "nl": "beheer wachtwoorden",
+                        "es": ""
+                    }
                 }
             ]
         },
         {
             "name": {
-                "en": "email, contacts, calendar, tasks",
-                "nl": "e-mail, contacten, kalender, taken",
+                "en": "Email, Contacts, Calendar and Tasks",
+                "nl": "E-mail, Contacten, Kalender en Taken",
                 "es": ""
             },
             "apps": [
@@ -65,8 +124,70 @@
         },
         {
             "name": {
-                "en": "media player",
-                "nl": "mediaspeler",
+                "en": "Messaging and Communication",
+                "nl": "Messaging en communicatie",
+                "es": ""
+            },
+            "apps": [
+                {
+                    "name": "Mattermost",
+                    "url": "https://mattermost.com/",
+                    "replaces": "",
+                    "description": {
+                        "en": "",
+                        "nl": "",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Telegram",
+                    "url": "https://telegram.org/",
+                    "replaces": "WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype",
+                    "issues": [
+                        "https://github.com/Telegram-FOSS-Team/Telegram-FOSS/issues/639"
+                    ],
+                    "description": {
+                        "en": "instant messaging, voice and video calling",
+                        "nl": "instant messaging, bellen en videobellen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Element",
+                    "url": "https://element.io/",
+                    "replaces": "WhatsApp, Google Meet, Zoom, Discord, Slack, Viber",
+                    "description": {
+                        "en": "instant messaging with Matrix",
+                        "nl": "instant messaging met Matrix",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Element X",
+                    "url": "https://element.io/",
+                    "replaces": "WhatsApp, Google Meet, Zoom, Discord, Slack, Viber",
+                    "description": {
+                        "en": "instant messaging with Matrix",
+                        "nl": "instant messaging met Matrix",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Jitsi Meet",
+                    "url" : "https://jitsi.org/jitsi-meet/",
+                    "replaces": "Zoom, Microsoft Teams, Google Meet, Discord, Skype",
+                    "description": {
+                        "en": "video conference",
+                        "nl": "videoconferentie",
+                        "es": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Media Players",
+                "nl": "Mediaspelers",
                 "es": ""
             },
             "apps": [
@@ -85,8 +206,8 @@
                     "url": "https://mpv.io/",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
-                        "en": "play video or audio from files or streams, including dual subtitles",
-                        "nl": "speel video of audio af van bestanden of streams, inclusief dubbele ondertiteling",
+                        "en": "play video or audio from files or streams, supports dual subtitles",
+                        "nl": "speel video of audio af van bestanden of streams, ondersteunt dubbele ondertiteling",
                         "es": ""
                     }
                 },
@@ -95,8 +216,8 @@
                     "url": "https://kodi.tv/",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
-                        "en": "play video or audio from files or streams, including info from TMDb",
-                        "nl": "speel video of audio af van bestanden of streams, inclusief info van TMDb ",
+                        "en": "play video or audio from files or streams, including info and movie posters from TMDb",
+                        "nl": "speel video of audio af van bestanden of streams, inclusief info en filmposters van TMDb ",
                         "es": ""
                     }
                 }
@@ -104,8 +225,8 @@
         },
         {
             "name": {
-                "en": "video recording and editing",
-                "nl": "video-opname en -bewerking",
+                "en": "Video Recording and Editing",
+                "nl": "Video-opname en -bewerking",
                 "es": ""
             },
             "apps": [
@@ -148,13 +269,23 @@
                         "nl": "inspecteer mediabestanden",
                         "es": ""
                     }
+                },
+                {
+                    "name": "LMMS",
+                    "url": "https://lmms.io/",
+                    "replaces": "Ableton Live, Adobe Audition, GarageBand",
+                    "description": {
+                        "en": "create and arrange music",
+                        "nl": "maak en arrangeer muziek",
+                        "es": ""
+                    }
                 }
             ]
         },
         {
             "name": {
-                "en": "office suite",
-                "nl": "officepakket",
+                "en": "Office Suite",
+                "nl": "Officepakket",
                 "es": ""
             },
             "apps": [
@@ -223,7 +354,7 @@
         {
             "name": {
                 "en": "Graphics and Publishing",
-                "nl": "Grafish en Publicatie",
+                "nl": "Grafish en publicatie",
                 "es": ""
             },
             "apps": [
@@ -279,88 +410,40 @@
                 {
                     "name": "Dash",
                     "url": "https://www.dash.org/",
-                    "replaces": "PayPal",
+                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
-                        "en": "send and receive cryptocurrency Dash",
-                        "nl": "verstuur en ontvang cryptovaluta Dash",
+                        "en": "send and receive anonymously the cryptocurrency Dash",
+                        "nl": "verstuur en ontvang anoniem de cryptovaluta Dash",
                         "es": ""
                     }
                 },
                 {
                     "name": "Firo",
                     "url": "https://firo.org/",
-                    "replaces": "PayPal",
+                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
-                        "en": "send and receive cryptocurrency Firo",
-                        "nl": "verstuur en ontvang cryptovaluta Firo",
-                        "es": ""
-                    }
-                }
-            ]
-        },
-        {
-            "name": {
-                "en": "Files",
-                "nl": "Bestanden",
-                "es": ""
-            },
-            "apps": [
-                {
-                    "name": "7-Zip",
-                    "url": "https://www.7-zip.org/",
-                    "replaces": "WinZip, WinZip PDF Pro",
-                    "description": {
-                        "en": "create and extract zip files",
-                        "nl": "pak zipbestanden in en uit",
+                        "en": "send and receive anonymously the cryptocurrency Firo",
+                        "nl": "verstuur en ontvang anoniem de cryptovaluta Firo",
                         "es": ""
                     }
                 },
                 {
-                    "name": "FileZilla",
-                    "url": "https://filezilla-project.org/",
-                    "replaces": "WinFTP, Duck",
+                    "name": "Beldex",
+                    "url": "https://beldex.io/",
+                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
-                        "en": "copy files to and from a server",
-                        "nl": "kopieer bestanden naar en van een server",
+                        "en": "send and receive anonymously the cryptocurrency Beldex",
+                        "nl": "verstuur en ontvang anoniem de cryptovaluta Beldex",
                         "es": ""
                     }
                 },
                 {
-                    "name": "ClamWin",
-                    "url": "https://www.clamwin.com/",
-                    "replaces": "McAfee VirusScan, Semantec Norton AntiVirus",
+                    "name": "Monero",
+                    "url": "https://www.getmonero.org/",
+                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
-                    "en": "scan files for virusses",
-                    "nl": "scan bestanden voor virussen",
-                        "es": ""
-                    }
-                },
-                {
-                    "name": "ClamTk",
-                    "url": "https://clamtk.sourceforge.net/",
-                    "replaces": "McAfee VirusScan, Semantec Norton AntiVirus",
-                    "description": {
-                        "en": "scan files for virusses",
-                        "nl": "scan bestanden voor virussen",
-                        "es": ""
-                    }
-                },
-                {
-                    "name": "Syncthing",
-                    "url": "https://www.syncthing.org/",
-                    "replaces": "Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud",
-                    "description": {
-                        "en": "synchronize and backup files",
-                        "nl": "synchroniseer en back-up bestanden",
-                        "es": ""
-                    }
-                },
-                {
-                    "name": "JScreenFix",
-                    "url": "https://www.jscreenfix.com/",
-                    "description": {
-                        "en": "repair pixels",
-                        "nl": "repareer pixels",
+                        "en": "send and receive anonymously the cryptocurrency Monero",
+                        "nl": "verstuur en ontvang anoniem de cryptovaluta Monero",
                         "es": ""
                     }
                 }
