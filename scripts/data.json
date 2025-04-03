@@ -273,10 +273,20 @@
                 {
                     "name": "LMMS",
                     "url": "https://lmms.io/",
-                    "replaces": "Ableton Live, Adobe Audition, GarageBand",
+                    "replaces": "Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand",
                     "description": {
-                        "en": "create and arrange music",
-                        "nl": "maak en arrangeer muziek",
+                        "en": "compose, arrange, produce, (re)mix and master music",
+                        "nl": "composeer, arrangeer, produceer, (re)mix en master muziek",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Mixxx",
+                    "url": "https://mixxx.org/",
+                    "replaces": "rekordbox, Traktor Pro, Serato DJ, VirtualDJ, Cross DJ, djay Pro, DJUCED",
+                    "description": {
+                        "en": "mix music, supports MIDI and HID controllers",
+                        "nl": "mix muziek, ondersteunt MIDI- en HID-controllers",
                         "es": ""
                     }
                 }

@@ -99,8 +99,12 @@ inspect media files</td>
 <td valign="top"><font color="red"><strong>Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</strong></font></td></tr>
 <tr><td><a target="_blank" href="https://lmms.io/"><img alt="icon" width="128px" src="icons/lmms.png"></a></td>
 <td valign="top"><a target="_blank" href="https://lmms.io/"><strong>LMMS</strong></a><br>
-create and arrange music</td>
-<td valign="top"><font color="red"><strong>Ableton Live, Adobe Audition, GarageBand</strong></font></td></tr>
+compose, arrange, produce, (re)mix and master music</td>
+<td valign="top"><font color="red"><strong>Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand</strong></font></td></tr>
+<tr><td><a target="_blank" href="https://mixxx.org/"><img alt="icon" width="128px" src="icons/mixxx.png"></a></td>
+<td valign="top"><a target="_blank" href="https://mixxx.org/"><strong>Mixxx</strong></a><br>
+mix music, supports MIDI and HID controllers</td>
+<td valign="top"><font color="red"><strong>rekordbox, Traktor Pro, Serato DJ, VirtualDJ, Cross DJ, djay Pro, DJUCED</strong></font></td></tr>
 <tr><th colspan="2"><br>Office Suite</th><th><br>Replaces</th></tr>
 <tr><td><a target="_blank" href="https://www.libreoffice.org/"><img alt="icon" width="128px" src="icons/libreoffice-writer.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.libreoffice.org/"><strong>LibreOffice Writer</strong></a><br>
