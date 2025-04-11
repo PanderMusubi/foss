@@ -80,7 +80,20 @@ def generate() -> None:
                     mado.write('<td valign="top"><a target="_blank"'
                                f' href="{url}"><strong>{app["name"]}'
                                '</strong></a><br>\n')
-                    mado.write(f'{app["description"][lang]}</td>\n')
+                    links = []
+                    if 'mobile' in app:
+                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#{app["mobile"]}">MB</a>')
+                    if 'desktop' in app:
+                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/foss/blob/main/README.md#{app["desktop"]}">DT</a>')
+                    if 'ppa' in app:
+                        links.append(f'<a target="_blank" href="{app["ppa"]}">PP</a>')
+                    if 'flathub' in app:
+                        links.append(f'<a target="_blank" href="https://flathub.org/apps/{app["flathub"]}">FH</a>')
+                    if 'snapcraft' in app:
+                        links.append(f'<a target="_blank" href="https://snapcraft.io/{app["snapcraft"]}">SC</a>')
+                    if 'alternativeto' in app:
+                        links.append(f'<a target="_blank" href="https://alternativeto.net/software/{app["alternativeto"]}/about/">AT</a>')
+                    mado.write(f'{app["description"][lang]}<br><small>{" ".join(links)}</small></td>\n')
                     if lang == 'en' and icon in icons:
                         print(f'WARNING: Duplicate use if icon {icon}')
                     icons.add(icon)

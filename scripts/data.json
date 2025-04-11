@@ -25,6 +25,8 @@
                 {
                     "name": "Syncthing",
                     "url": "https://www.syncthing.org/",
+                    "snapcraft": "syncthing-gael",
+                    "alternativeto": "syncthing",
                     "replaces": "Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud",
                     "description": {
                         "en": "synchronize and backup files",
@@ -35,6 +37,7 @@
                 {
                     "name": "7-Zip",
                     "url": "https://www.7-zip.org/",
+                    "alternativeto": "7-zip",
                     "replaces": "WinZip, WinZip PDF Pro",
                     "description": {
                         "en": "create and extract zip files",
@@ -45,6 +48,8 @@
                 {
                     "name": "FileZilla",
                     "url": "https://filezilla-project.org/",
+                    "flathub": "org.filezillaproject.Filezilla",
+                    "alternativeto": "filezilla",
                     "replaces": "WinFTP, Duck",
                     "description": {
                         "en": "copy files to and from a server",
@@ -55,6 +60,7 @@
                 {
                     "name": "Clam AntiVirus",
                     "url": "https://www.clamav.net/",
+                    "alternativeto": "clam-antivirus",
                     "replaces": "McAfee VirusScan, Norton AntiVirus",
                     "description": {
                     "en": "scan files for virusses",
@@ -74,16 +80,21 @@
                 {
                     "name": "Firefox",
                     "url": "https://www.mozilla.com/firefox/",
+                    "flathub": "org.mozilla.firefox",
+                    "snapcraft": "firefox",
+                    "alternativeto": "firefox",
                     "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
                     "description": {
-                        "en": "browse the internet, including Firefox Sync for synchronizing passwords, bookmarks, settings, etc.",
-                        "nl": "browse het internet, inclusief Firefox Sync voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
+                        "en": "browse the internet, including [Firefox Sync](https://alternativeto.net/software/firefox-sync/about/) for synchronizing passwords, bookmarks, settings, etc.",
+                        "nl": "browse het internet, inclusief [Firefox Sync](https://alternativeto.net/software/firefox-sync/about/) voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
                         "es": ""
                     }
                 },
                 {
                     "name": "Ungoogled Chromium",
                     "url": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+                    "flathub": "io.github.ungoogled_software.ungoogled_chromium",
+                    "alternativeto": "ungoogled-chromium",
                     "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
                     "description": {
                         "en": "browse the internet without integration of Google",
@@ -94,6 +105,9 @@
                 {
                     "name": "KeepassXC",
                     "url": "https://keepassxc.org/",
+                    "flathub": "org.keepassxc.KeePassXC",
+                    "snapcraft": "keepassxc",
+                    "alternativeto": "keepassxc",
                     "replaces": "Google Password Manager, Microsoft Authenticator, LastPass, 1Password, Bitwarden Password Manager, Yandex Key",
                     "description": {
                         "en": "manage passwords",
@@ -113,6 +127,9 @@
                 {
                     "name": "Thunderbird",
                     "url": "https://www.thunderbird.net/",
+                    "flathub": "org.mozilla.Thunderbird",
+                    "snapcraft": "thunderbird",
+                    "alternativeto": "mozilla-thunderbird",
                     "replaces": "Microsoft Outlook, (Google) Gmail, Google Calendar, Mail, Address Book, iCal",
                     "description": {
                         "en": "send and receive emails, managing contacts (CardDAV) and manage calendars and tasks (CalDAV, ICS)",
@@ -130,8 +147,53 @@
             },
             "apps": [
                 {
+                    "name": "Signal",
+                    "url": "https://signal.org/",
+                    "flathub": "org.signal.Signal",
+                    "snapcraft": "signal-desktop",
+                    "alternativeto": "signal-private-messenger",
+                    "mobile": "signal",
+                    "replaces": "WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype",
+                    "description": {
+                        "en": "instant messaging, voice and video calling",
+                        "nl": "instant messaging, bellen en videobellen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Telegram",
+                    "url": "https://telegram.org/",
+                    "flathub": "org.telegram.desktop",
+                    "snapcraft": "telegram-desktop",
+                    "alternativeto": "telegram",
+                    "mobile": "forkgram",
+                    "replaces": "WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype",
+                    "description": {
+                        "en": "instant messaging, voice and video calling",
+                        "nl": "instant messaging, bellen en videobellen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "Briar",
+                    "url": "https://briarproject.org/",
+                    "flathub": "org.briarproject.Briar",
+                    "alternativeto": "briar",
+                    "mobile": "briar",
+                    "replaces": "WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype",
+                    "description": {
+                        "en": "peer-to-peer messaging",
+                        "nl": "peer-to-peer messaging",
+                        "es": ""
+                    }
+                },
+                {
                     "name": "Mattermost",
                     "url": "https://mattermost.com/",
+                    "flathub": "com.mattermost.Desktop",
+                    "snapcraft": "mattermost-desktop",
+                    "alternativeto": "mattermost",
+                    "mobile": "mattermost",
                     "replaces": "",
                     "description": {
                         "en": "",
@@ -140,21 +202,12 @@
                     }
                 },
                 {
-                    "name": "Telegram",
-                    "url": "https://telegram.org/",
-                    "replaces": "WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype",
-                    "issues": [
-                        "https://github.com/Telegram-FOSS-Team/Telegram-FOSS/issues/639"
-                    ],
-                    "description": {
-                        "en": "instant messaging, voice and video calling",
-                        "nl": "instant messaging, bellen en videobellen",
-                        "es": ""
-                    }
-                },
-                {
                     "name": "Element",
                     "url": "https://element.io/",
+                    "flathub": "im.riot.Riot",
+                    "snapcraft": "element-desktop",
+                    "alternativeto": "element-app",
+                    "mobile": "element",
                     "replaces": "WhatsApp, Google Meet, Zoom, Discord, Slack, Viber",
                     "description": {
                         "en": "instant messaging with Matrix",
@@ -165,6 +218,8 @@
                 {
                     "name": "Element X",
                     "url": "https://element.io/",
+                    "alternativeto": "element-x",
+                    "mobile": "element-x",
                     "replaces": "WhatsApp, Google Meet, Zoom, Discord, Slack, Viber",
                     "description": {
                         "en": "instant messaging with Matrix",
@@ -175,6 +230,9 @@
                 {
                     "name": "Jitsi Meet",
                     "url" : "https://jitsi.org/jitsi-meet/",
+                    "flathub": "org.jitsi.jitsi-meet",
+                    "alternativeto": "jitsi-meet",
+                    "mobile": "jitsi-meet",
                     "replaces": "Zoom, Microsoft Teams, Google Meet, Discord, Skype",
                     "description": {
                         "en": "video conference",
@@ -194,6 +252,10 @@
                 {
                     "name": "VLC",
                     "url": "https://www.videolan.org/vlc/",
+                    "flathub": "org.videolan.VLC",
+                    "snapcraft": "vlc",
+                    "alternativeto": "vlc-media-player",
+                    "mobile": "vlc",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
                         "en": "play video or audio from files or streams",
@@ -204,6 +266,10 @@
                 {
                     "name": "MPV",
                     "url": "https://mpv.io/",
+                    "flathub": "io.mpv.Mpv",
+                    "snapcraft": "mpv",
+                    "alternativeto": "mpv",
+                    "mobile": "mpv",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
                         "en": "play video or audio from files or streams, supports dual subtitles",
@@ -214,10 +280,26 @@
                 {
                     "name": "Kodi",
                     "url": "https://kodi.tv/",
+                    "flathub": "tv.kodi.Kodi",
+                    "snapcraft": "kodi-omega",
+                    "alternativeto": "xbmc-media-center",
+                    "mobile": "kodi",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
                         "en": "play video or audio from files or streams, including info and movie posters from TMDb",
-                        "nl": "speel video of audio af van bestanden of streams, inclusief info en filmposters van TMDb ",
+                        "nl": "speel video of audio af van bestanden of streams, inclusief info en filmposters van TMDb",
+                        "es": ""
+                    }                },
+                {
+                    "name": "Spotube",
+                    "url": "https://spotube.krtirtho.dev/",
+                    "flathub": "com.github.KRTirtho.Spotube",
+                    "alternativeto": "spotube",
+                    "mobile": "spotube",
+                    "replaces": "Spotify",
+                    "description": {
+                        "en": "play Spotify without an account and no ads",
+                        "nl": "speel Spotify zonder een account en geen reclame",
                         "es": ""
                     }
                 }
@@ -233,6 +315,11 @@
                 {
                     "name": "OBS Studio",
                     "url": "https://obsproject.com/",
+                    "flathub": "com.obsproject.Studio",
+                    "snapcraft": "obs-studio",
+                    "ppa": "https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio",
+                    "alternativeto": "open-broadcaster-software",
+                    "mobile": "remote",
                     "replaces": "Camtasia, Snagit",
                     "description": {
                         "en": "record and stream videos",
@@ -243,6 +330,9 @@
                 {
                     "name": "Shotcut",
                     "url": "https://www.shotcut.org/",
+                    "flathub": "org.shotcut.Shotcut",
+                    "snapcraft": "shotcut",
+                    "alternativeto": "shotcut",
                     "replaces": "Adobe Premiere Pro, Windows Movie Maker, iMovie, Pinnacle Studio, DaVinci Resolve",
                     "description": {
                         "en": "edit videos",
@@ -253,6 +343,9 @@
                 {
                     "name": "Audacity",
                     "url": "https://www.audacityteam.org/",
+                    "flathub": "org.audacityteam.Audacity",
+                    "snapcraft": "audacity",
+                    "alternativeto": "audacity",
                     "replaces": "Adobe Soundbooth, GarageBand, Sony Sound Forge",
                     "description": {
                         "en": "edit audio files",
@@ -263,6 +356,10 @@
                 {
                     "name": "Mediainfo",
                     "url": "https://mediaarea.net/MediaInfo",
+                    "flathub": "net.mediaarea.MediaInfo",
+                    "snapcraft": "mediainfo-gui",
+                    "alternativeto": "mediainfo",
+                    "mobile": "yes",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
                         "en": "inspect media files",
@@ -273,6 +370,8 @@
                 {
                     "name": "LMMS",
                     "url": "https://lmms.io/",
+                    "flathub": "io.lmms.LMMS",
+                    "alternativeto": "lmms",
                     "replaces": "Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand",
                     "description": {
                         "en": "compose, arrange, produce, (re)mix and master music",
@@ -283,6 +382,9 @@
                 {
                     "name": "Mixxx",
                     "url": "https://mixxx.org/",
+                    "flathub": "org.mixxx.Mixxx",
+                    "ppa": "https://launchpad.net/~mixxx/+archive/ubuntu/mixxx",
+                    "alternativeto": "mixxx",
                     "replaces": "rekordbox, Traktor Pro, Serato DJ, VirtualDJ, Cross DJ, djay Pro, DJUCED",
                     "description": {
                         "en": "mix music, supports MIDI and HID controllers",
@@ -302,6 +404,10 @@
                 {
                     "name": "LibreOffice Writer",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice-writer",
                     "replaces": "Microsoft Office Word",
                     "description": {
                         "en": "word processor",
@@ -312,6 +418,10 @@
                 {
                     "name": "LibreOffice Calc",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice---calc",
                     "replaces": "Microsoft Office Excel",
                     "description": {
                         "en": "spreadsheet",
@@ -322,6 +432,10 @@
                 {
                     "name": "LibreOffice Impress",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice-impress",
                     "replaces": "Microsoft Office PowerPoint",
                     "description": {
                         "en": "presentation",
@@ -332,6 +446,10 @@
                 {
                     "name": "LibreOffice Base",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice-base",
                     "replaces": "Microsoft Office Access",
                     "description": {
                         "en": "database",
@@ -342,6 +460,10 @@
                 {
                     "name": "LibreOffice Draw",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice---draw",
                     "replaces": "Microsoft Office Draw",
                     "description": {
                         "en": "drawing",
@@ -352,6 +474,10 @@
                 {
                     "name": "LibreOffice Math",
                     "url": "https://www.libreoffice.org/",
+                    "flathub": "org.libreoffice.LibreOffice",
+                    "snapcraft": "libreoffice",
+                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "alternativeto": "libreoffice-math",
                     "replaces": "Microsoft Office MathTyoe",
                     "description": {
                         "en": "mathematical formulas",
@@ -371,6 +497,9 @@
                 {
                     "name": "GIMP",
                     "url": "https://gimp.org/",
+                    "flathub": "org.gimp.GIMP",
+                    "snapcraft": "gimp",
+                    "alternativeto": "gimp",
                     "replaces": "Adobe Illustrator, Corel Paint Shop Pro Photo",
                     "description": {
                         "en": "image manipulation",
@@ -381,6 +510,10 @@
                 {
                     "name": "Inkscape",
                     "url": "https://inkscape.org/",
+                    "ppa": "https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable",
+                    "flathub": "org.inkscape.Inkscape",
+                    "snapcraft": "inkscape",
+                    "alternativeto": "inkscape",
                     "replaces": "Adobe Illustrator, Adobe Fireworks, CorelDRAW",
                     "description": {
                         "en": "vector drawing",
@@ -391,6 +524,9 @@
                 {
                     "name": "Krita",
                     "url": "https://krita.org/",
+                    "flathub": "org.kde.krita",
+                    "snapcraft": "krita",
+                    "alternativeto": "krita",
                     "replaces": "Microsoft Paint, Painting",
                     "description": {
                         "en": "drawing",
@@ -401,6 +537,8 @@
                 {
                     "name": "Scribus",
                     "url": "https://scribus.net/",
+                    "flathub": "net.scribus.Scribus",
+                    "alternativeto": "scribus",
                     "replaces": "Adobe InDesign, Adobe FrameMaker, QuarkXPress",
                     "description": {
                         "en": "desktop publishing (DTP)",
@@ -420,6 +558,9 @@
                 {
                     "name": "Dash",
                     "url": "https://www.dash.org/",
+                    "flathub": "org.dash.dash-core",
+                    "alternativeto": "darkcoin",
+                    "mobile": "dash-wallet",
                     "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Dash",
@@ -430,6 +571,8 @@
                 {
                     "name": "Firo",
                     "url": "https://firo.org/",
+                    "flathub": "org.firo.firo-qt",
+                    "alternativeto": "zcoin",
                     "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Firo",
@@ -440,6 +583,7 @@
                 {
                     "name": "Beldex",
                     "url": "https://beldex.io/",
+                    "ppa": "https://deb.beldex.io/apt-repo/",
                     "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Beldex",
@@ -450,6 +594,8 @@
                 {
                     "name": "Monero",
                     "url": "https://www.getmonero.org/",
+                    "flathub": "org.getmonero.Monero",
+                    "alternativeto": "monero",
                     "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Monero",
