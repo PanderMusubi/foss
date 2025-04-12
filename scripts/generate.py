@@ -101,7 +101,7 @@ def generate() -> None:
                         print(f'WARNING: Duplicate use if icon {icon}')
                     icons.add(icon)
                     replaces = app.get('replaces', '')
-                    mado.write(f'<td valign="top"><font color="red"><strong>{replaces}</strong></font></td></tr>\n')
+                    mado.write(f'<td valign="top"><font color="red">{replaces}</font></td></tr>\n')
             mado.write('</table>\n\n')
             footer(mado, footers, lang)
     for file in sorted(glob('../icons/*')):
