@@ -66,15 +66,16 @@ def generate() -> None:
                 mado.write(f'<tr><th colspan="2"><br>{category["name"][lang]}'
                            f'</th><th><br>{replaces_title}</th></tr>\n')
                 for app in category['apps']:
-                    icon = ''
                     url = ''
+                    it = ''
                     if 'id' in app:
-                        url = f'https://f-droid.org/en/packages/{app["id"]}'
-                        icon = f'icons/{app["id"]}.png'
+                        it = app['id']
+                        url = f'https://f-droid.org/en/packages/{it}'
                     else:
+                        it = app['name'].lower().replace(' ', '-')
                         url = app['url']
-                        icon = 'icons/' + app['name'].lower().replace(' ', '-') + '.png'
-                    mado.write('<tr><td><a target="_blank"'
+                    icon = f'icons/{it}.png'
+                    mado.write(f'<tr id="{it}"><td><a target="_blank"'
                                f' href="{url}"><img alt="icon" width="128px"'
                                f' src="{icon}"></a></td>\n')
                     mado.write('<td valign="top"><a target="_blank"'
@@ -85,14 +86,16 @@ def generate() -> None:
                         links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#{app["mobile"]}">MB</a>')
                     if 'desktop' in app:
                         links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/foss/blob/main/README.md#{app["desktop"]}">DT</a>')
-                    if 'ppa' in app:
-                        links.append(f'<a target="_blank" href="{app["ppa"]}">PP</a>')
+                    if 'apt' in app:
+                        links.append(f'<a target="_blank" href="{app["apt"]}">AP</a>')
                     if 'flathub' in app:
                         links.append(f'<a target="_blank" href="https://flathub.org/apps/{app["flathub"]}">FH</a>')
                     if 'snapcraft' in app:
                         links.append(f'<a target="_blank" href="https://snapcraft.io/{app["snapcraft"]}">SC</a>')
                     if 'alternativeto' in app:
                         links.append(f'<a target="_blank" href="https://alternativeto.net/software/{app["alternativeto"]}/about/">AT</a>')
+                    if 'osalternative' in app:
+                        links.append(f'<a target="_blank" href="https://osalternative.to/project/{app["alternativeto"]}">OA</a>')
                     mado.write(f'{app["description"][lang]}<br><small>{" ".join(links)}</small></td>\n')
                     if lang == 'en' and icon in icons:
                         print(f'WARNING: Duplicate use if icon {icon}')

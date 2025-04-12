@@ -5,7 +5,7 @@
         "es": "Para español, ver"
     },
     "headers": {
-        "en": "# FOSS\n\n**Selection of FOSS for Windows, macOS and Linux**\n\n> <em>The secret of happiness is freedom. The secret of freedom is courage.</em> — Thucydides (460 – 395 BC) Greek historian and author in Athens\n\nFor several reasons it is advisable to user the <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Free_and_open-source_software\">free and open source software</a> (FOSS) listed below. These software packages can be used free of charge on all operating systems, such as [Windows](https://microsoft.com/windows/), [macOS](https://apple.com/macos/) and [Linux](https://pop.system76.com/). The software packages below are legal, of high quality and guarantee more freedom for the user.",
+        "en": "# FOSS\n\n**Selection of FOSS for Windows, macOS and Linux**\n\n> <em>The secret of happiness is freedom. The secret of freedom is courage.</em> — Thucydides (460 – 395 BC) Greek historian and author in Athens\n\nFor several reasons it is advisable to user the <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Free_and_open-source_software\">free and open source software</a> (FOSS) listed below. These software packages can be used free of charge on all operating systems, such as [Windows](https://microsoft.com/windows/), [macOS](https://apple.com/macos/) and [Linux](https://pop.system76.com/). The software packages below are legal, of high quality and guarantee more freedom for the user.\n\nThe additional links under the application description are:\n- AP for the APT\n- FL for flathub.org\n- SN for snapcraft.io\n- AT for alternative.to\n- OA for os.alternative.to",
         "nl": "# FOSS\n\n**Selectie van FOSS voor Windows, macOS en Linux**\n\n> <em>Het geheim van geluk is vrijheid. Het geheim van vrijheid is moed.</em> — Thucydides (460 – 395 v.Chr.) Griekse historicus en schrijver in Athene\n\nHet is om verschillende reden aan te bevelen om onderstaande <a target=\"_blank\" href=\"https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware\">vrije opensourcesoftware</a> (FOSS) te gebruiken. Deze softwarepakketten zijn gratis te gebruiken op besturingssystemen zoals [Windows](https://microsoft.com/netherlands/windows/), [macOS](https://apple.com/macos/) en [Linux](https://pop.system76.com/). De software hieronder is legaal, van hoge kwaliteit en garanderen meer vrijheid voor de gebruiker.",
         "es": ""
     },
@@ -61,6 +61,7 @@
                     "name": "Clam AntiVirus",
                     "url": "https://www.clamav.net/",
                     "alternativeto": "clam-antivirus",
+                    "osalternative": "clamav",
                     "replaces": "McAfee VirusScan, Norton AntiVirus",
                     "description": {
                     "en": "scan files for virusses",
@@ -108,6 +109,7 @@
                     "flathub": "org.keepassxc.KeePassXC",
                     "snapcraft": "keepassxc",
                     "alternativeto": "keepassxc",
+                    "osalternative": "keepassxc",
                     "replaces": "Google Password Manager, Microsoft Authenticator, LastPass, 1Password, Bitwarden Password Manager, Yandex Key",
                     "description": {
                         "en": "manage passwords",
@@ -193,6 +195,7 @@
                     "flathub": "com.mattermost.Desktop",
                     "snapcraft": "mattermost-desktop",
                     "alternativeto": "mattermost",
+                    "osalternative": "mattermost",
                     "mobile": "mattermost",
                     "replaces": "",
                     "description": {
@@ -207,6 +210,7 @@
                     "flathub": "im.riot.Riot",
                     "snapcraft": "element-desktop",
                     "alternativeto": "element-app",
+                    "osalternative": "element",
                     "mobile": "element",
                     "replaces": "WhatsApp, Google Meet, Zoom, Discord, Slack, Viber",
                     "description": {
@@ -255,6 +259,7 @@
                     "flathub": "org.videolan.VLC",
                     "snapcraft": "vlc",
                     "alternativeto": "vlc-media-player",
+                    "osalternative": "vlc",
                     "mobile": "vlc",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
@@ -269,6 +274,7 @@
                     "flathub": "io.mpv.Mpv",
                     "snapcraft": "mpv",
                     "alternativeto": "mpv",
+                    "osalternative": "mpv",
                     "mobile": "mpv",
                     "replaces": "Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes",
                     "description": {
@@ -317,7 +323,7 @@
                     "url": "https://obsproject.com/",
                     "flathub": "com.obsproject.Studio",
                     "snapcraft": "obs-studio",
-                    "ppa": "https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio",
+                    "apt": "https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio",
                     "alternativeto": "open-broadcaster-software",
                     "mobile": "remote",
                     "replaces": "Camtasia, Snagit",
@@ -333,6 +339,7 @@
                     "flathub": "org.shotcut.Shotcut",
                     "snapcraft": "shotcut",
                     "alternativeto": "shotcut",
+                    "osalternative": "shotcut",
                     "replaces": "Adobe Premiere Pro, Windows Movie Maker, iMovie, Pinnacle Studio, DaVinci Resolve",
                     "description": {
                         "en": "edit videos",
@@ -346,6 +353,7 @@
                     "flathub": "org.audacityteam.Audacity",
                     "snapcraft": "audacity",
                     "alternativeto": "audacity",
+                    "osalternative": "mpv",
                     "replaces": "Adobe Soundbooth, GarageBand, Sony Sound Forge",
                     "description": {
                         "en": "edit audio files",
@@ -372,6 +380,7 @@
                     "url": "https://lmms.io/",
                     "flathub": "io.lmms.LMMS",
                     "alternativeto": "lmms",
+                    "osalternative": "lmms",
                     "replaces": "Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand",
                     "description": {
                         "en": "compose, arrange, produce, (re)mix and master music",
@@ -383,8 +392,9 @@
                     "name": "Mixxx",
                     "url": "https://mixxx.org/",
                     "flathub": "org.mixxx.Mixxx",
-                    "ppa": "https://launchpad.net/~mixxx/+archive/ubuntu/mixxx",
+                    "apt": "https://launchpad.net/~mixxx/+archive/ubuntu/mixxx",
                     "alternativeto": "mixxx",
+                    "osalternative": "mixxx",
                     "replaces": "rekordbox, Traktor Pro, Serato DJ, VirtualDJ, Cross DJ, djay Pro, DJUCED",
                     "description": {
                         "en": "mix music, supports MIDI and HID controllers",
@@ -406,8 +416,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice-writer",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office Word",
                     "description": {
                         "en": "word processor",
@@ -420,8 +431,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice---calc",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office Excel",
                     "description": {
                         "en": "spreadsheet",
@@ -434,8 +446,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice-impress",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office PowerPoint",
                     "description": {
                         "en": "presentation",
@@ -448,8 +461,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice-base",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office Access",
                     "description": {
                         "en": "database",
@@ -462,8 +476,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice---draw",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office Draw",
                     "description": {
                         "en": "drawing",
@@ -476,8 +491,9 @@
                     "url": "https://www.libreoffice.org/",
                     "flathub": "org.libreoffice.LibreOffice",
                     "snapcraft": "libreoffice",
-                    "ppa": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
+                    "apt": "https://launchpad.net/~libreoffice/+archive/ubuntu/ppa",
                     "alternativeto": "libreoffice-math",
+                    "osalternative": "libreoffice",
                     "replaces": "Microsoft Office MathTyoe",
                     "description": {
                         "en": "mathematical formulas",
@@ -500,6 +516,7 @@
                     "flathub": "org.gimp.GIMP",
                     "snapcraft": "gimp",
                     "alternativeto": "gimp",
+                    "osalternative": "gimp",
                     "replaces": "Adobe Illustrator, Corel Paint Shop Pro Photo",
                     "description": {
                         "en": "image manipulation",
@@ -510,7 +527,7 @@
                 {
                     "name": "Inkscape",
                     "url": "https://inkscape.org/",
-                    "ppa": "https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable",
+                    "apt": "https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable",
                     "flathub": "org.inkscape.Inkscape",
                     "snapcraft": "inkscape",
                     "alternativeto": "inkscape",
@@ -531,6 +548,20 @@
                     "description": {
                         "en": "drawing",
                         "nl": "tekenen",
+                        "es": ""
+                    }
+                },
+                {
+                    "name": "darktable",
+                    "url": "https://www.darktable.org/",
+                    "flathub": "org.darktable.Darktable",
+                    "snapcraft": "darktable",
+                    "alternativeto": "darktable",
+                    "osalternative": "darktable",
+                    "replaces": "Adobe Lightroom",
+                    "description": {
+                        "en": "image manipulation",
+                        "nl": "tekenprogramma, beeldmanipulatie",
                         "es": ""
                     }
                 },
@@ -583,7 +614,7 @@
                 {
                     "name": "Beldex",
                     "url": "https://beldex.io/",
-                    "ppa": "https://deb.beldex.io/apt-repo/",
+                    "apt": "https://deb.beldex.io/apt-repo/",
                     "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Beldex",
