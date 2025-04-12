@@ -26,6 +26,7 @@
                     "name": "Syncthing",
                     "url": "https://www.syncthing.org/",
                     "snapcraft": "syncthing-gael",
+                    "apt": "https://apt.syncthing.net/",
                     "alternativeto": "syncthing",
                     "replaces": "Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud",
                     "description": {
@@ -60,6 +61,7 @@
                 {
                     "name": "Clam AntiVirus",
                     "url": "https://www.clamav.net/",
+                    "apt": "https://docs.clamav.net/manual/Installing/Packages.html#debian",
                     "alternativeto": "clam-antivirus",
                     "osalternative": "clamav",
                     "replaces": "McAfee VirusScan, Norton AntiVirus",
@@ -209,6 +211,7 @@
                     "url": "https://element.io/",
                     "flathub": "im.riot.Riot",
                     "snapcraft": "element-desktop",
+                    "apt": "https://element.io/download#linux",
                     "alternativeto": "element-app",
                     "osalternative": "element",
                     "mobile": "element",
@@ -235,6 +238,7 @@
                     "name": "Jitsi Meet",
                     "url" : "https://jitsi.org/jitsi-meet/",
                     "flathub": "org.jitsi.jitsi-meet",
+                    "apt": "https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/#add-the-jitsi-package-repository",
                     "alternativeto": "jitsi-meet",
                     "mobile": "jitsi-meet",
                     "replaces": "Zoom, Microsoft Teams, Google Meet, Discord, Skype",

@@ -8,7 +8,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="syncthing"><td><a target="_blank" href="https://www.syncthing.org/"><img alt="icon" width="128px" src="icons/syncthing.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.syncthing.org/"><strong>Syncthing</strong></a><br>
-<br><small><a target="_blank" href="https://snapcraft.io/syncthing-gael">SC</a> <a target="_blank" href="https://alternativeto.net/software/syncthing/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://apt.syncthing.net/">AP</a> <a target="_blank" href="https://snapcraft.io/syncthing-gael">SC</a> <a target="_blank" href="https://alternativeto.net/software/syncthing/about/">AT</a></small></td>
 <td valign="top"><font color="red">Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud</font></td></tr>
 <tr id="7-zip"><td><a target="_blank" href="https://www.7-zip.org/"><img alt="icon" width="128px" src="icons/7-zip.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.7-zip.org/"><strong>7-Zip</strong></a><br>
@@ -20,7 +20,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <td valign="top"><font color="red">WinFTP, Duck</font></td></tr>
 <tr id="clam-antivirus"><td><a target="_blank" href="https://www.clamav.net/"><img alt="icon" width="128px" src="icons/clam-antivirus.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.clamav.net/"><strong>Clam AntiVirus</strong></a><br>
-<br><small><a target="_blank" href="https://alternativeto.net/software/clam-antivirus/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/clam-antivirus">OA</a></small></td>
+<br><small><a target="_blank" href="https://docs.clamav.net/manual/Installing/Packages.html#debian">AP</a> <a target="_blank" href="https://alternativeto.net/software/clam-antivirus/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/clam-antivirus">OA</a></small></td>
 <td valign="top"><font color="red">McAfee VirusScan, Norton AntiVirus</font></td></tr>
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="firefox"><td><a target="_blank" href="https://www.mozilla.com/firefox/"><img alt="icon" width="128px" src="icons/firefox.png"></a></td>
@@ -59,7 +59,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <td valign="top"><font color="red"></font></td></tr>
 <tr id="element"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element">MB</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element">MB</a> <a target="_blank" href="https://element.io/download#linux">AP</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="element-x"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element-x.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element X</strong></a><br>
@@ -67,7 +67,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="jitsi-meet"><td><a target="_blank" href="https://jitsi.org/jitsi-meet/"><img alt="icon" width="128px" src="icons/jitsi-meet.png"></a></td>
 <td valign="top"><a target="_blank" href="https://jitsi.org/jitsi-meet/"><strong>Jitsi Meet</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#jitsi-meet">MB</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#jitsi-meet">MB</a> <a target="_blank" href="https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/#add-the-jitsi-package-repository">AP</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
 <td valign="top"><font color="red">Zoom, Microsoft Teams, Google Meet, Discord, Skype</font></td></tr>
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="vlc"><td><a target="_blank" href="https://www.videolan.org/vlc/"><img alt="icon" width="128px" src="icons/vlc.png"></a></td>

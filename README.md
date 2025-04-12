@@ -21,7 +21,7 @@ The additional links under the application description are:
 <tr><th colspan="2"><br>Files</th><th><br>Replaces</th></tr>
 <tr id="syncthing"><td><a target="_blank" href="https://www.syncthing.org/"><img alt="icon" width="128px" src="icons/syncthing.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.syncthing.org/"><strong>Syncthing</strong></a><br>
-synchronize and backup files<br><small><a target="_blank" href="https://snapcraft.io/syncthing-gael">SC</a> <a target="_blank" href="https://alternativeto.net/software/syncthing/about/">AT</a></small></td>
+synchronize and backup files<br><small><a target="_blank" href="https://apt.syncthing.net/">AP</a> <a target="_blank" href="https://snapcraft.io/syncthing-gael">SC</a> <a target="_blank" href="https://alternativeto.net/software/syncthing/about/">AT</a></small></td>
 <td valign="top"><font color="red">Dropbox, Google Drive, Microsoft OneDrive, Yandex Disk, Yandex Cloud</font></td></tr>
 <tr id="7-zip"><td><a target="_blank" href="https://www.7-zip.org/"><img alt="icon" width="128px" src="icons/7-zip.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.7-zip.org/"><strong>7-Zip</strong></a><br>
@@ -33,7 +33,7 @@ copy files to and from a server<br><small><a target="_blank" href="https://flath
 <td valign="top"><font color="red">WinFTP, Duck</font></td></tr>
 <tr id="clam-antivirus"><td><a target="_blank" href="https://www.clamav.net/"><img alt="icon" width="128px" src="icons/clam-antivirus.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.clamav.net/"><strong>Clam AntiVirus</strong></a><br>
-scan files for virusses<br><small><a target="_blank" href="https://alternativeto.net/software/clam-antivirus/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/clam-antivirus">OA</a></small></td>
+scan files for virusses<br><small><a target="_blank" href="https://docs.clamav.net/manual/Installing/Packages.html#debian">AP</a> <a target="_blank" href="https://alternativeto.net/software/clam-antivirus/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/clam-antivirus">OA</a></small></td>
 <td valign="top"><font color="red">McAfee VirusScan, Norton AntiVirus</font></td></tr>
 <tr><th colspan="2"><br>Web Browsers</th><th><br>Replaces</th></tr>
 <tr id="firefox"><td><a target="_blank" href="https://www.mozilla.com/firefox/"><img alt="icon" width="128px" src="icons/firefox.png"></a></td>
@@ -72,7 +72,7 @@ peer-to-peer messaging<br><small><a target="_blank" href="https://github.com/Pan
 <td valign="top"><font color="red"></font></td></tr>
 <tr id="element"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element</strong></a><br>
-instant messaging with Matrix<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element">MB</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
+instant messaging with Matrix<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element">MB</a> <a target="_blank" href="https://element.io/download#linux">AP</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="element-x"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element-x.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element X</strong></a><br>
@@ -80,7 +80,7 @@ instant messaging with Matrix<br><small><a target="_blank" href="https://github.
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="jitsi-meet"><td><a target="_blank" href="https://jitsi.org/jitsi-meet/"><img alt="icon" width="128px" src="icons/jitsi-meet.png"></a></td>
 <td valign="top"><a target="_blank" href="https://jitsi.org/jitsi-meet/"><strong>Jitsi Meet</strong></a><br>
-video conference<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#jitsi-meet">MB</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
+video conference<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#jitsi-meet">MB</a> <a target="_blank" href="https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/#add-the-jitsi-package-repository">AP</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
 <td valign="top"><font color="red">Zoom, Microsoft Teams, Google Meet, Discord, Skype</font></td></tr>
 <tr><th colspan="2"><br>Media Players</th><th><br>Replaces</th></tr>
 <tr id="vlc"><td><a target="_blank" href="https://www.videolan.org/vlc/"><img alt="icon" width="128px" src="icons/vlc.png"></a></td>
