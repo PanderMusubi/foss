@@ -358,7 +358,7 @@
                     "snapcraft": "audacity",
                     "alternativeto": "audacity",
                     "osalternative": "mpv",
-                    "replaces": "Adobe Soundbooth, GarageBand, Sony Sound Forge",
+                    "replaces": "Ableton Live, Adobe Audition, Adobe Soundbooth, REAPER, GarageBand, Sony Sound Forge",
                     "description": {
                         "en": "edit audio files",
                         "nl": "bewerk audiobestanden",
@@ -385,7 +385,7 @@
                     "flathub": "io.lmms.LMMS",
                     "alternativeto": "lmms",
                     "osalternative": "lmms",
-                    "replaces": "Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand",
+                    "replaces": "Ableton Live, Adobe Audition, REAPER, FL Studio, Pro Tools, Logic Pro, GarageBand",
                     "description": {
                         "en": "compose, arrange, produce, (re)mix and master music",
                         "nl": "composeer, arrangeer, produceer, (re)mix en master muziek",

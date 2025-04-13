@@ -98,7 +98,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <tr id="audacity"><td><a target="_blank" href="https://www.audacityteam.org/"><img alt="icon" width="128px" src="icons/audacity.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.audacityteam.org/"><strong>Audacity</strong></a><br>
 <br><small><a target="_blank" href="https://flathub.org/apps/org.audacityteam.Audacity">FH</a> <a target="_blank" href="https://snapcraft.io/audacity">SC</a> <a target="_blank" href="https://alternativeto.net/software/audacity/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/audacity">OA</a></small></td>
-<td valign="top"><font color="red">Adobe Soundbooth, GarageBand, Sony Sound Forge</font></td></tr>
+<td valign="top"><font color="red">Ableton Live, Adobe Audition, Adobe Soundbooth, REAPER, GarageBand, Sony Sound Forge</font></td></tr>
 <tr id="mediainfo"><td><a target="_blank" href="https://mediaarea.net/MediaInfo"><img alt="icon" width="128px" src="icons/mediainfo.png"></a></td>
 <td valign="top"><a target="_blank" href="https://mediaarea.net/MediaInfo"><strong>Mediainfo</strong></a><br>
 <br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#yes">MB</a> <a target="_blank" href="https://flathub.org/apps/net.mediaarea.MediaInfo">FH</a> <a target="_blank" href="https://snapcraft.io/mediainfo-gui">SC</a> <a target="_blank" href="https://alternativeto.net/software/mediainfo/about/">AT</a></small></td>
@@ -106,7 +106,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <tr id="lmms"><td><a target="_blank" href="https://lmms.io/"><img alt="icon" width="128px" src="icons/lmms.png"></a></td>
 <td valign="top"><a target="_blank" href="https://lmms.io/"><strong>LMMS</strong></a><br>
 <br><small><a target="_blank" href="https://flathub.org/apps/io.lmms.LMMS">FH</a> <a target="_blank" href="https://alternativeto.net/software/lmms/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/lmms">OA</a></small></td>
-<td valign="top"><font color="red">Ableton Live, Adobe Audition, FL Studio, Pro Tools, Logic Pro, GarageBand</font></td></tr>
+<td valign="top"><font color="red">Ableton Live, Adobe Audition, REAPER, FL Studio, Pro Tools, Logic Pro, GarageBand</font></td></tr>
 <tr id="mixxx"><td><a target="_blank" href="https://mixxx.org/"><img alt="icon" width="128px" src="icons/mixxx.png"></a></td>
 <td valign="top"><a target="_blank" href="https://mixxx.org/"><strong>Mixxx</strong></a><br>
 <br><small><a target="_blank" href="https://launchpad.net/~mixxx/+archive/ubuntu/mixxx">AP</a> <a target="_blank" href="https://flathub.org/apps/org.mixxx.Mixxx">FH</a> <a target="_blank" href="https://alternativeto.net/software/mixxx/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/mixxx">OA</a></small></td>
