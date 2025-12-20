@@ -1,6 +1,6 @@
-_🇬🇧 For English, see [README.md](README.md)_
+_🇬🇧 For English, see [overview-en.md](overview-en.md)_
 
-_🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
+_🇳🇱 Voor Nederlands, zie [overview-nl.md](overview-nl.md)_
 
 
 
@@ -23,14 +23,14 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <br><small><a target="_blank" href="https://docs.clamav.net/manual/Installing/Packages.html#debian">AP</a> <a target="_blank" href="https://alternativeto.net/software/clam-antivirus/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/clam-antivirus">OA</a></small></td>
 <td valign="top"><font color="red">McAfee VirusScan, Norton AntiVirus</font></td></tr>
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
-<tr id="firefox"><td><a target="_blank" href="https://www.mozilla.com/firefox/"><img alt="icon" width="128px" src="icons/firefox.png"></a></td>
-<td valign="top"><a target="_blank" href="https://www.mozilla.com/firefox/"><strong>Firefox</strong></a><br>
-<br><small><a target="_blank" href="https://flathub.org/apps/org.mozilla.firefox">FH</a> <a target="_blank" href="https://snapcraft.io/firefox">SC</a> <a target="_blank" href="https://alternativeto.net/software/firefox/about/">AT</a></small></td>
-<td valign="top"><font color="red">Microsoft Edge, Google Chrome, Apple Safari</font></td></tr>
+<tr id="librewolf"><td><a target="_blank" href="https://librewolf.net/"><img alt="icon" width="128px" src="icons/librewolf.png"></a></td>
+<td valign="top"><a target="_blank" href="https://librewolf.net/"><strong>LibreWolf</strong></a><br>
+<br><small><a target="_blank" href="https://flathub.org/apps/io.gitlab.librewolf-community">FH</a> <a target="_blank" href="https://alternativeto.net/software/librewolf/about/">AT</a></small></td>
+<td valign="top"><font color="red">Firefox, Google Chrome, Microsoft Edge, Apple Safari</font></td></tr>
 <tr id="ungoogled-chromium"><td><a target="_blank" href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"><img alt="icon" width="128px" src="icons/ungoogled-chromium.png"></a></td>
 <td valign="top"><a target="_blank" href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"><strong>Ungoogled Chromium</strong></a><br>
 <br><small><a target="_blank" href="https://flathub.org/apps/io.github.ungoogled_software.ungoogled_chromium">FH</a> <a target="_blank" href="https://alternativeto.net/software/ungoogled-chromium/about/">AT</a></small></td>
-<td valign="top"><font color="red">Microsoft Edge, Google Chrome, Apple Safari</font></td></tr>
+<td valign="top"><font color="red">Google Chrome, Microsoft Edge, Apple Safari</font></td></tr>
 <tr id="keepassxc"><td><a target="_blank" href="https://keepassxc.org/"><img alt="icon" width="128px" src="icons/keepassxc.png"></a></td>
 <td valign="top"><a target="_blank" href="https://keepassxc.org/"><strong>KeepassXC</strong></a><br>
 <br><small><a target="_blank" href="https://flathub.org/apps/org.keepassxc.KeePassXC">FH</a> <a target="_blank" href="https://snapcraft.io/keepassxc">SC</a> <a target="_blank" href="https://alternativeto.net/software/keepassxc/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/keepassxc">OA</a></small></td>
@@ -43,53 +43,49 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="signal"><td><a target="_blank" href="https://signal.org/"><img alt="icon" width="128px" src="icons/signal.png"></a></td>
 <td valign="top"><a target="_blank" href="https://signal.org/"><strong>Signal</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#signal">MB</a> <a target="_blank" href="https://flathub.org/apps/org.signal.Signal">FH</a> <a target="_blank" href="https://snapcraft.io/signal-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/signal-private-messenger/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#signal">MB</a> <a target="_blank" href="https://flathub.org/apps/org.signal.Signal">FH</a> <a target="_blank" href="https://snapcraft.io/signal-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/signal-private-messenger/about/">AT</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype</font></td></tr>
 <tr id="telegram"><td><a target="_blank" href="https://telegram.org/"><img alt="icon" width="128px" src="icons/telegram.png"></a></td>
 <td valign="top"><a target="_blank" href="https://telegram.org/"><strong>Telegram</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#forkgram">MB</a> <a target="_blank" href="https://flathub.org/apps/org.telegram.desktop">FH</a> <a target="_blank" href="https://snapcraft.io/telegram-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/telegram/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#forkgram">MB</a> <a target="_blank" href="https://flathub.org/apps/org.telegram.desktop">FH</a> <a target="_blank" href="https://snapcraft.io/telegram-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/telegram/about/">AT</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype</font></td></tr>
 <tr id="briar"><td><a target="_blank" href="https://briarproject.org/"><img alt="icon" width="128px" src="icons/briar.png"></a></td>
 <td valign="top"><a target="_blank" href="https://briarproject.org/"><strong>Briar</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#briar">MB</a> <a target="_blank" href="https://flathub.org/apps/org.briarproject.Briar">FH</a> <a target="_blank" href="https://alternativeto.net/software/briar/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#briar">MB</a> <a target="_blank" href="https://flathub.org/apps/org.briarproject.Briar">FH</a> <a target="_blank" href="https://alternativeto.net/software/briar/about/">AT</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Facebook Messenger, Zoom, Discord, Google Meet, Google Hangouts, Instagram, Snapchat, LINE, Skype</font></td></tr>
-<tr id="mattermost"><td><a target="_blank" href="https://mattermost.com/"><img alt="icon" width="128px" src="icons/mattermost.png"></a></td>
-<td valign="top"><a target="_blank" href="https://mattermost.com/"><strong>Mattermost</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#mattermost">MB</a> <a target="_blank" href="https://flathub.org/apps/com.mattermost.Desktop">FH</a> <a target="_blank" href="https://snapcraft.io/mattermost-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/mattermost/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/mattermost">OA</a></small></td>
-<td valign="top"><font color="red"></font></td></tr>
 <tr id="element"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element">MB</a> <a target="_blank" href="https://element.io/download#linux">AP</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#element">MB</a> <a target="_blank" href="https://element.io/download#linux">AP</a> <a target="_blank" href="https://flathub.org/apps/im.riot.Riot">FH</a> <a target="_blank" href="https://snapcraft.io/element-desktop">SC</a> <a target="_blank" href="https://alternativeto.net/software/element-app/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/element-app">OA</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="element-x"><td><a target="_blank" href="https://element.io/"><img alt="icon" width="128px" src="icons/element-x.png"></a></td>
 <td valign="top"><a target="_blank" href="https://element.io/"><strong>Element X</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#element-x">MB</a> <a target="_blank" href="https://alternativeto.net/software/element-x/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#element-x">MB</a> <a target="_blank" href="https://alternativeto.net/software/element-x/about/">AT</a></small></td>
 <td valign="top"><font color="red">WhatsApp, Google Meet, Zoom, Discord, Slack, Viber</font></td></tr>
 <tr id="jitsi-meet"><td><a target="_blank" href="https://jitsi.org/jitsi-meet/"><img alt="icon" width="128px" src="icons/jitsi-meet.png"></a></td>
 <td valign="top"><a target="_blank" href="https://jitsi.org/jitsi-meet/"><strong>Jitsi Meet</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#jitsi-meet">MB</a> <a target="_blank" href="https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/#add-the-jitsi-package-repository">AP</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#jitsi-meet">MB</a> <a target="_blank" href="https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/#add-the-jitsi-package-repository">AP</a> <a target="_blank" href="https://flathub.org/apps/org.jitsi.jitsi-meet">FH</a> <a target="_blank" href="https://alternativeto.net/software/jitsi-meet/about/">AT</a></small></td>
 <td valign="top"><font color="red">Zoom, Microsoft Teams, Google Meet, Discord, Skype</font></td></tr>
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="vlc"><td><a target="_blank" href="https://www.videolan.org/vlc/"><img alt="icon" width="128px" src="icons/vlc.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.videolan.org/vlc/"><strong>VLC</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#vlc">MB</a> <a target="_blank" href="https://flathub.org/apps/org.videolan.VLC">FH</a> <a target="_blank" href="https://snapcraft.io/vlc">SC</a> <a target="_blank" href="https://alternativeto.net/software/vlc-media-player/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/vlc-media-player">OA</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#vlc">MB</a> <a target="_blank" href="https://flathub.org/apps/org.videolan.VLC">FH</a> <a target="_blank" href="https://snapcraft.io/vlc">SC</a> <a target="_blank" href="https://alternativeto.net/software/vlc-media-player/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/vlc-media-player">OA</a></small></td>
 <td valign="top"><font color="red">Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</font></td></tr>
 <tr id="mpv"><td><a target="_blank" href="https://mpv.io/"><img alt="icon" width="128px" src="icons/mpv.png"></a></td>
 <td valign="top"><a target="_blank" href="https://mpv.io/"><strong>MPV</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#mpv">MB</a> <a target="_blank" href="https://flathub.org/apps/io.mpv.Mpv">FH</a> <a target="_blank" href="https://snapcraft.io/mpv">SC</a> <a target="_blank" href="https://alternativeto.net/software/mpv/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/mpv">OA</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#mpv">MB</a> <a target="_blank" href="https://flathub.org/apps/io.mpv.Mpv">FH</a> <a target="_blank" href="https://snapcraft.io/mpv">SC</a> <a target="_blank" href="https://alternativeto.net/software/mpv/about/">AT</a> <a target="_blank" href="https://osalternative.to/project/mpv">OA</a></small></td>
 <td valign="top"><font color="red">Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</font></td></tr>
 <tr id="kodi"><td><a target="_blank" href="https://kodi.tv/"><img alt="icon" width="128px" src="icons/kodi.png"></a></td>
 <td valign="top"><a target="_blank" href="https://kodi.tv/"><strong>Kodi</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#kodi">MB</a> <a target="_blank" href="https://flathub.org/apps/tv.kodi.Kodi">FH</a> <a target="_blank" href="https://snapcraft.io/kodi-omega">SC</a> <a target="_blank" href="https://alternativeto.net/software/xbmc-media-center/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#kodi">MB</a> <a target="_blank" href="https://flathub.org/apps/tv.kodi.Kodi">FH</a> <a target="_blank" href="https://snapcraft.io/kodi-omega">SC</a> <a target="_blank" href="https://alternativeto.net/software/xbmc-media-center/about/">AT</a></small></td>
 <td valign="top"><font color="red">Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</font></td></tr>
 <tr id="spotube"><td><a target="_blank" href="https://spotube.krtirtho.dev/"><img alt="icon" width="128px" src="icons/spotube.png"></a></td>
 <td valign="top"><a target="_blank" href="https://spotube.krtirtho.dev/"><strong>Spotube</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#spotube">MB</a> <a target="_blank" href="https://flathub.org/apps/com.github.KRTirtho.Spotube">FH</a> <a target="_blank" href="https://alternativeto.net/software/spotube/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#spotube">MB</a> <a target="_blank" href="https://flathub.org/apps/com.github.KRTirtho.Spotube">FH</a> <a target="_blank" href="https://alternativeto.net/software/spotube/about/">AT</a></small></td>
 <td valign="top"><font color="red">Spotify</font></td></tr>
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="obs-studio"><td><a target="_blank" href="https://obsproject.com/"><img alt="icon" width="128px" src="icons/obs-studio.png"></a></td>
 <td valign="top"><a target="_blank" href="https://obsproject.com/"><strong>OBS Studio</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#remote">MB</a> <a target="_blank" href="https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio">AP</a> <a target="_blank" href="https://flathub.org/apps/com.obsproject.Studio">FH</a> <a target="_blank" href="https://snapcraft.io/obs-studio">SC</a> <a target="_blank" href="https://alternativeto.net/software/open-broadcaster-software/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#remote">MB</a> <a target="_blank" href="https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio">AP</a> <a target="_blank" href="https://flathub.org/apps/com.obsproject.Studio">FH</a> <a target="_blank" href="https://snapcraft.io/obs-studio">SC</a> <a target="_blank" href="https://alternativeto.net/software/open-broadcaster-software/about/">AT</a></small></td>
 <td valign="top"><font color="red">Camtasia, Snagit</font></td></tr>
 <tr id="shotcut"><td><a target="_blank" href="https://www.shotcut.org/"><img alt="icon" width="128px" src="icons/shotcut.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.shotcut.org/"><strong>Shotcut</strong></a><br>
@@ -101,7 +97,7 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <td valign="top"><font color="red">Ableton Live, Adobe Audition, Adobe Soundbooth, REAPER, GarageBand, Sony Sound Forge</font></td></tr>
 <tr id="mediainfo"><td><a target="_blank" href="https://mediaarea.net/MediaInfo"><img alt="icon" width="128px" src="icons/mediainfo.png"></a></td>
 <td valign="top"><a target="_blank" href="https://mediaarea.net/MediaInfo"><strong>Mediainfo</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#yes">MB</a> <a target="_blank" href="https://flathub.org/apps/net.mediaarea.MediaInfo">FH</a> <a target="_blank" href="https://snapcraft.io/mediainfo-gui">SC</a> <a target="_blank" href="https://alternativeto.net/software/mediainfo/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#yes">MB</a> <a target="_blank" href="https://flathub.org/apps/net.mediaarea.MediaInfo">FH</a> <a target="_blank" href="https://snapcraft.io/mediainfo-gui">SC</a> <a target="_blank" href="https://alternativeto.net/software/mediainfo/about/">AT</a></small></td>
 <td valign="top"><font color="red">Microsoft Media Player, Winamp, QuickTime, DVD Player, iTunes</font></td></tr>
 <tr id="lmms"><td><a target="_blank" href="https://lmms.io/"><img alt="icon" width="128px" src="icons/lmms.png"></a></td>
 <td valign="top"><a target="_blank" href="https://lmms.io/"><strong>LMMS</strong></a><br>
@@ -160,19 +156,11 @@ _🇳🇱 Voor Nederlands, zie [README-nl.md](README-nl.md)_
 <tr><th colspan="2"><br></th><th><br>Replaces</th></tr>
 <tr id="dash"><td><a target="_blank" href="https://www.dash.org/"><img alt="icon" width="128px" src="icons/dash.png"></a></td>
 <td valign="top"><a target="_blank" href="https://www.dash.org/"><strong>Dash</strong></a><br>
-<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#dash-wallet">MB</a> <a target="_blank" href="https://flathub.org/apps/org.dash.dash-core">FH</a> <a target="_blank" href="https://alternativeto.net/software/darkcoin/about/">AT</a></small></td>
-<td valign="top"><font color="red">PayPal, American Express, Visa, Mastercard, Bitcoin</font></td></tr>
-<tr id="firo"><td><a target="_blank" href="https://firo.org/"><img alt="icon" width="128px" src="icons/firo.png"></a></td>
-<td valign="top"><a target="_blank" href="https://firo.org/"><strong>Firo</strong></a><br>
-<br><small><a target="_blank" href="https://flathub.org/apps/org.firo.firo-qt">FH</a> <a target="_blank" href="https://alternativeto.net/software/zcoin/about/">AT</a></small></td>
+<br><small><a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-es.md#dash-wallet">MB</a> <a target="_blank" href="https://flathub.org/apps/org.dash.dash-core">FH</a> <a target="_blank" href="https://alternativeto.net/software/darkcoin/about/">AT</a></small></td>
 <td valign="top"><font color="red">PayPal, American Express, Visa, Mastercard, Bitcoin</font></td></tr>
 <tr id="beldex"><td><a target="_blank" href="https://beldex.io/"><img alt="icon" width="128px" src="icons/beldex.png"></a></td>
 <td valign="top"><a target="_blank" href="https://beldex.io/"><strong>Beldex</strong></a><br>
 <br><small><a target="_blank" href="https://deb.beldex.io/apt-repo/">AP</a></small></td>
-<td valign="top"><font color="red">PayPal, American Express, Visa, Mastercard, Bitcoin</font></td></tr>
-<tr id="monero"><td><a target="_blank" href="https://www.getmonero.org/"><img alt="icon" width="128px" src="icons/monero.png"></a></td>
-<td valign="top"><a target="_blank" href="https://www.getmonero.org/"><strong>Monero</strong></a><br>
-<br><small><a target="_blank" href="https://flathub.org/apps/org.getmonero.Monero">FH</a> <a target="_blank" href="https://alternativeto.net/software/monero/about/">AT</a></small></td>
 <td valign="top"><font color="red">PayPal, American Express, Visa, Mastercard, Bitcoin</font></td></tr>
 </table>
 

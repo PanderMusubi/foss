@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Generate documentation on selected FOSS software."""
 
 from json import load
@@ -22,13 +21,9 @@ def header(mado: TextIO, references: dict, headers: dict, lang: str) -> None:
     """Write Markdown header."""
     for reference, value in sorted(references.items()):
         if reference != lang:
-            if reference == 'en':
-                mado.write(f'_{flag(reference)} {value}'
-                           f' [README.md](README.md)_\n\n')
-            else:
-                mado.write(f'_{flag(reference)} {value}'
-                           f' [README-{reference}.md]'
-                           f'(README-{reference}.md)_\n\n')
+            mado.write(f'_{flag(reference)} {value}'
+                       f' [overview-{reference}.md]'
+                       f'(overview-{reference}.md)_\n\n')
     mado.write(f'{headers[lang]}\n\n')
 
 
@@ -50,10 +45,7 @@ def generate() -> None:
     """Generate files."""
     references, headers, footers, categories = read_json()
     for lang in sorted(references):
-        filename = f'README-{lang}.md'
-        if lang == 'en':
-            filename = 'README.md'
-        with open(f'../{filename}', 'w') as mado:
+        with open(f'overview-{lang}.md', 'w') as mado:
             header(mado, references, headers, lang)
             mado.write('<table>\n')
             icons = set()
@@ -83,9 +75,9 @@ def generate() -> None:
                                '</strong></a><br>\n')
                     links = []
                     if 'mobile' in app:
-                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/README.md#{app["mobile"]}">MB</a>')
+                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/fdroid/blob/main/overview-{lang}.md#{app["mobile"]}">MB</a>')
                     if 'desktop' in app:
-                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/foss/blob/main/README.md#{app["desktop"]}">DT</a>')
+                        links.append(f'<a target="_blank" href="https://github.com/PanderMusubi/foss/blob/main/overview-{lang}.md#{app["desktop"]}">DT</a>')
                     if 'apt' in app:
                         links.append(f'<a target="_blank" href="{app["apt"]}">AP</a>')
                     if 'flathub' in app:
@@ -104,8 +96,7 @@ def generate() -> None:
                     mado.write(f'<td valign="top"><font color="red">{replaces}</font></td></tr>\n')
             mado.write('</table>\n\n')
             footer(mado, footers, lang)
-    for file in sorted(glob('../icons/*')):
-        file = file[3:]
+    for file in sorted(glob('icons/*')):
         if file not in icons:
             print(f'WARNING: Unused icon file {file}')
 

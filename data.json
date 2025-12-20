@@ -81,12 +81,11 @@
             },
             "apps": [
                 {
-                    "name": "Firefox",
-                    "url": "https://www.mozilla.com/firefox/",
-                    "flathub": "org.mozilla.firefox",
-                    "snapcraft": "firefox",
-                    "alternativeto": "firefox",
-                    "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
+                    "name": "LibreWolf",
+                    "url": "https://librewolf.net/",
+                    "flathub": "io.gitlab.librewolf-community",
+                    "alternativeto": "librewolf",
+                    "replaces": "Firefox, Google Chrome, Microsoft Edge, Apple Safari",
                     "description": {
                         "en": "browse the internet, including [Firefox Sync](https://alternativeto.net/software/firefox-sync/about/) for synchronizing passwords, bookmarks, settings, etc.",
                         "nl": "browse het internet, inclusief [Firefox Sync](https://alternativeto.net/software/firefox-sync/about/) voor synchroniseren wachtwoorden, favorieten, instellingen, etc.",
@@ -98,7 +97,7 @@
                     "url": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
                     "flathub": "io.github.ungoogled_software.ungoogled_chromium",
                     "alternativeto": "ungoogled-chromium",
-                    "replaces": "Microsoft Edge, Google Chrome, Apple Safari",
+                    "replaces": "Google Chrome, Microsoft Edge, Apple Safari",
                     "description": {
                         "en": "browse the internet without integration of Google",
                         "nl": "browse het internet zonder integratie van Google",
@@ -188,21 +187,6 @@
                     "description": {
                         "en": "peer-to-peer messaging",
                         "nl": "peer-to-peer messaging",
-                        "es": ""
-                    }
-                },
-                {
-                    "name": "Mattermost",
-                    "url": "https://mattermost.com/",
-                    "flathub": "com.mattermost.Desktop",
-                    "snapcraft": "mattermost-desktop",
-                    "alternativeto": "mattermost",
-                    "osalternative": "mattermost",
-                    "mobile": "mattermost",
-                    "replaces": "",
-                    "description": {
-                        "en": "",
-                        "nl": "",
                         "es": ""
                     }
                 },
@@ -604,18 +588,6 @@
                     }
                 },
                 {
-                    "name": "Firo",
-                    "url": "https://firo.org/",
-                    "flathub": "org.firo.firo-qt",
-                    "alternativeto": "zcoin",
-                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
-                    "description": {
-                        "en": "send and receive anonymously the cryptocurrency Firo",
-                        "nl": "verstuur en ontvang anoniem de cryptovaluta Firo",
-                        "es": ""
-                    }
-                },
-                {
                     "name": "Beldex",
                     "url": "https://beldex.io/",
                     "apt": "https://deb.beldex.io/apt-repo/",
@@ -623,18 +595,6 @@
                     "description": {
                         "en": "send and receive anonymously the cryptocurrency Beldex",
                         "nl": "verstuur en ontvang anoniem de cryptovaluta Beldex",
-                        "es": ""
-                    }
-                },
-                {
-                    "name": "Monero",
-                    "url": "https://www.getmonero.org/",
-                    "flathub": "org.getmonero.Monero",
-                    "alternativeto": "monero",
-                    "replaces": "PayPal, American Express, Visa, Mastercard, Bitcoin",
-                    "description": {
-                        "en": "send and receive anonymously the cryptocurrency Monero",
-                        "nl": "verstuur en ontvang anoniem de cryptovaluta Monero",
                         "es": ""
                     }
                 }

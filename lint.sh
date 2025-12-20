@@ -16,3 +16,4 @@ echo '* PYRIGHT-ALRIGHT'
 pyright-alright $FILES
 echo '* MYPY'
 mypy --ignore-missing-imports $FILES
+
