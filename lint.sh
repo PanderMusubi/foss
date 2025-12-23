@@ -1,8 +1,5 @@
 #!/usr/bin/env sh
 
-echo '* CHECKBASHISMS'
-checkbashisms *.sh
-
 . .venv/bin/activate
 FILES=*.py
 echo '* PYDOCSTYLE'
@@ -11,7 +8,7 @@ echo '* FLAKE8'
 flake8 --ignore E501 $FILES
 echo '* PYLINT'
 pylint $FILES
-echo '* PYFLAKES3'
+echo '* PYFLAKES'
 pyflakes $FILES
 echo '* PYRIGHT-ALRIGHT'
 pyright-alright $FILES

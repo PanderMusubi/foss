@@ -11,7 +11,7 @@ The overviews are:
 
 ## Build
 
-To build the overviews, install
+Install
 
 ```sh
 sudo apt-get -y install python3-pip python3-venv
@@ -20,7 +20,11 @@ python3 -m venv .venv
 pip install -Ur requirements.txt
 ```
 
-and then run `./build.sh`.
+Run
+
+```sh
+./build.sh
+```
 
 ## TODO
 
@@ -48,5 +52,10 @@ Install
 pip install -Ur requirements-dev.txt
 ```
 
-Run the linters with `./lint.sh`.
+Run
+
+```sh
+checkbashisms *.sh
+./lint.sh
+```
 
