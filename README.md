@@ -39,3 +39,14 @@ https://handbrake.fr/
 https://matrix.org/ecosystem/clients/ https://element.io/
 https://mifi.no/losslesscut/
 
+## Development
+
+Install
+
+```sh
+. .venv/bin/activate
+pip install -Ur requirements-dev.txt
+```
+
+Run the linters with `./lint.sh`.
+

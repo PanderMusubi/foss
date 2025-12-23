@@ -54,7 +54,7 @@ def generate() -> None:
                 if lang == 'nl':
                     replaces_title = 'Vervangt'
                 elif lang == 'es':
-                    pass # TODO
+                    pass  # TODO
                 mado.write(f'<tr><th colspan="2"><br>{category["name"][lang]}'
                            f'</th><th><br>{replaces_title}</th></tr>\n')
                 for app in category['apps']:
